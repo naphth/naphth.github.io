@@ -65,11 +65,11 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前在NAOC进行学习与科研"
+                content: "目前在NAOC进行学习与研究"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "方向是射电天文"
+                    content: "方向是射电天文学"
                 }).then(function () {
                     botui.message.add({
                         delay: 2000,

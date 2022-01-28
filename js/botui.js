@@ -30,7 +30,7 @@ function bot_ui_ini() {
         }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "一个不务正业的电波()文学专业在读生"
+                content: "一个不务正业的()文学专业在读生"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
@@ -65,11 +65,11 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前在NAOC进行研究生阶段的学习和科研"
+                content: "目前在NAOC进行学习与科研"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "研究方向是射电天文"
+                    content: "方向是射电天文"
                 }).then(function () {
                     botui.message.add({
                         delay: 2000,

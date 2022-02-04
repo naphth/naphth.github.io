@@ -5491,9 +5491,9 @@ i.iconfont.js-toggle-search.iconsearch {
     font-size:13px;
     color:#555
 }
-.alipay-code:after {
+/*.alipay-code:after {
     content:"支付宝"
-}
+}*/
 .wechat-code:after {
     content:"微信"
 }

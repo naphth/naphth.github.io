@@ -1,4 +1,4 @@
-﻿var Engine = {
+var Engine = {
 		
 	/* TODO *** MICHAEL IS A LAZY BASTARD AND DOES NOT WANT TO REFACTOR ***
 	 * Here is what he should be doing:

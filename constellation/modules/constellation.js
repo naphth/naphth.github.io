@@ -320,7 +320,7 @@ var scale = 320, to_scale = 320, srat = 0, to_srat = 0;
     }
     ctx.font = "normal 15px '仿宋'";
     ctx.fillStyle = "rgb(255,255,255)";  
-    ctx.fillText("作者: Charles", 20, 30); 
+    ctx.fillText("producer: Charles", 20, 30); 
     ctx.fillText("操作指南:", 20, 50); 
     ctx.fillText("1. 鼠标点击对应的星星即可显示星星信息", 20, 70); 
     ctx.fillText("2. 按Z键放大或缩小", 20, 90); 

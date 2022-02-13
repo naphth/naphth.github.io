@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  
+  <title itemprop="name">说明书 | milkomeda</title>
+  
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
+  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+  <link rel="stylesheet" id="saukra_css-css" href="/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/lib.min.css" media="all">
+  <link rel="stylesheet" href="/css/font.css" media="all">
+  <link rel="stylesheet" href="/css/insight.css" media="all">
+  <link rel="stylesheet" href="/css/jquery.fancybox.min.css" media="all">
+  <link rel="stylesheet" href="/css/zoom.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/css/logo.css">
+  <link rel="stylesheet" type="text/css" href="/fonts/LOGO/logo.css">
+  
+<!-- 自定义看板娘 --!>
+  <script src="/live2d-widget/autoload.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+
+<!--   <link rel="stylesheet" id="saukra_css-css" href="https://2heng.xin/wp-content/cache/autoptimize/css/autoptimize_ad42a61f4c7d4bdd9f91afcff6b5dda5.css
+" type="text/css" media="all"> -->
+  <script>
+  /*Initial Variables*/
+  var mashiro_option = new Object();
+  var mashiro_global = new Object();
+  mashiro_option.NProgressON = true;
+  /* 
+   * 邮箱信息之类的东西可以填在这里，这些js变量基本都作用于sakura-app.js
+   * 这样的设置仅是为了方便在基于PHP开发的主题中设置js变量，既然移植到了Node上，我想或许可以精简这一逻辑吧
+   */
+  mashiro_option.email_domain = "";
+  mashiro_option.email_name = "";
+  mashiro_option.cookie_version_control = "";
+  mashiro_option.qzone_autocomplete = false;
+  mashiro_option.site_name = "Akashicrecords";
+  mashiro_option.author_name = "records";
+  mashiro_option.site_url = "https://rikka.world";
+
+  mashiro_option.mathjax = "0";
+  mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
+  mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
+
+  // mashiro_option.jsdelivr_css_src = "https://cdn.jsdelivr.net/gh/moezx/cdn@3.4.5/css/lib.min.css";
+  // mashiro_option.float_player_on = true;
+
+  /*End of Initial Variables*/
+  </script>
+  <script type="text/javascript">
+  var bg = "https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/img/bizhi2.jpg".split(",");
+  var bgindex = Math.floor(Math.random()*bg.length);
+  if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+    alert('朋友，IE浏览器未适配哦~');
+  }
+  </script>
+  <style type="text/css">
+  .hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}
+  </style>
+  <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
+  </style>
+<meta name="generator" content="Hexo 5.4.1"><link rel="alternate" href="/atom.xml" title="milkomeda" type="application/atom+xml">
+</head>
+
+<body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
+  <div class="scrollbar" id="bar">
+  </div>
+  <a href="#" class="cd-top faa-float animated"></a>
+  <section id="main-container">
+    <div class="headertop filter-dot">
+  <div id="banner_wave_1"></div>
+  <div id="banner_wave_2"></div>
+  <figure id="centerbg" class="centerbg">
+    <div class="focusinfo no-select">
+      <div class="header-tou">
+   <h1 class="center-text glitch is-glitching Ubuntu-font" data-text="milkomeda">milkomeda</h1>
+	</div>
+      <div class="header-info">
+        <p>EL PSY CONGROO</p>
+        <div class="top-social_v2">
+          <li id="bg-pre">
+            <img class="flipx" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+          
+            
+              
+                <li>
+                  <a href="http://github.com/naphth" target="_blank" class="social-github" title="github">
+                    <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/icon/github.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://twitter.com/naphth1" target="_blank" class="social-github" title="twitter">
+                    <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/icon/twitter.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://music.163.com/#/user/home?id=393373269" target="_blank" class="social-github" title="wangyiyun">
+                    <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/icon/wangyiyun.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="https://www.zhihu.com/people/sheng-xia-ying-hua-ji" target="_blank" class="social-github" title="zhihu">
+                    <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/icon/zhihu.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="mailto:741712340@qq.com" target="_blank" class="social-github" title="email">
+                    <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/icon/gmail.png">
+                  </a>
+                </li>
+              
+            
+              
+                <li class="wechat">
+                  <a href="/#">
+                    <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/icon/qq.png">
+                  </a>
+                  <div class="wechatInner">
+                    <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/images/cover/qq.jpg">
+                  </div>
+                </li>
+              
+            
+          
+          <li id="bg-next">
+            <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/next-b.svg">
+          </li>
+        </div>
+      </div>
+    </div>
+  </figure>
+  <div id="video-container" style="">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
+    </video>
+    <div id="video-btn" class="loadvideo videolive">
+    </div>
+    <div id="video-add">
+    </div>
+    <div class="video-stu">
+    </div>
+  </div>
+  <div class="headertop-down faa-float animated" onclick="headertop_down()">
+    <span>
+      <i class="fa fa-chevron-down" aria-hidden="true">
+      </i>
+    </span>
+  </div>
+</div>
+
+    <div id="page" class="site wrapper">
+      <header class="site-header no-select gizle sabit" role="banner">
+  <div class="site-top">
+    <div class="site-branding">
+      <span class="site-title">
+        <span class="logolink logo">
+          <a href="/">
+           <ruby>
+            <span class="sakurasono">Akashic</span>
+            <span class="no">の</span>
+            <span class="shironeko">records</span>
+            <rp></rp>
+            <rt class="logo">vanishment this world</rt>
+            <rp></rp>
+           </ruby>
+          </a>
+        </span>
+      </span>
+    </div>
+    <div class="searchbox search-form-submit">
+      <i class="iconfont js-toggle-search iconsearch icon-search">
+      </i>
+    </div>
+    <div id="show-nav" class="showNav mobile-fit">
+      <div class="line line1">
+      </div>
+      <div class="line line2">
+      </div>
+      <div class="line line3">
+      </div>
+    </div>
+    <div class="lower-cantiner">
+      <div class="lower">
+        <nav class="mobile-fit-control hide">
+          <ul id="menu-new" class="menu">
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+                    首页
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+                    归档
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/categories/%E6%8A%80%E6%9C%AF/">
+                          <i class="fa fa-code" aria-hidden="true"></i>
+                          技术
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E6%96%87%E7%AB%A0/">
+                          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                          文章
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E8%B5%84%E6%BA%90/">
+                          <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                          资源
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E9%9A%8F%E6%83%B3/">
+                          <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                          随想
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/categories/%E7%AC%94%E8%AE%B0/">
+                          <i class="fa fa-book" aria-hidden="true"></i>
+                          笔记
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+                    清单
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/books/">
+                          <i class="fa fa-th-list faa-bounce" aria-hidden="true"></i>
+                          书单
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/bangumis/">
+                          <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                          番组
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/music/">
+                          <i class="fa fa-headphones" aria-hidden="true"></i>
+                          歌单
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/comic/">
+                          <i class="fa fa-photo" aria-hidden="true"></i>
+                          漫画
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/comment/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+                    留言板
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="javascript:;">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-android faa-vertical" aria-hidden="true"></i>
+                    游戏
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/adarkroom/?lang=zh_cn/">
+                          <i class="fa " aria-hidden="true"></i>
+                          小黑屋
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/constellation/">
+                          <i class="fa " aria-hidden="true"></i>
+                          星座
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/links/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+                    友人帐
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/donate/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+                    赞赏
+                  </span>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="/">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+                    关于
+                  </span>
+                </a>
+                
+                  <ul class="sub-menu">
+                    
+                      <li>
+                        <a href="/about/">
+                          <i class="fa fa-meetup" aria-hidden="true"></i>
+                          我？
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/theme-sakura/">
+                          <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
+                          Blog
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="/lab/">
+                          <i class="fa fa-cogs" aria-hidden="true"></i>
+                          Lab
+                        </a>
+                      </li>
+                    
+                  </ul>
+                
+              </li>
+            
+              <li>
+                <a href="/atom.xml">
+                  <span class="faa-parent animated-hover">
+                    <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+                    RSS
+                  </span>
+                </a>
+                
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/tocbot/4.10.1/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+          <header class="entry-header">
+            <h1 class="entry-title">说明书</h1>
+            <p class="entry-census">walnut&nbsp;·&nbsp;2021-7-1&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          <h1 id="绪"><a href="#绪" class="headerlink" title="绪"></a>绪</h1><p>这是一篇关于搭建、配置、部署、调教和使用hexo-sakura博客的教程备档，目的是方便发生了一些不可名状的事故后能快速抢救（w。</p>
+<p>OS：ubuntu20</p>
+<h1 id="搭建与配置篇"><a href="#搭建与配置篇" class="headerlink" title="搭建与配置篇"></a>搭建与配置篇</h1><h1 id="一、搭建hexo-amp-amp-sakura"><a href="#一、搭建hexo-amp-amp-sakura" class="headerlink" title="一、搭建hexo&amp;&amp;sakura"></a><strong>一、搭建hexo&amp;&amp;sakura</strong></h1><h2 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1.准备工作"></a>1.准备工作</h2><p><u>需要提前安装：Node.js , Git</u></p>
+<p>Git貌似ubuntu已经自带，这里只介绍安装Node.js：</p>
+<p>先在建特定目录下建文件，然后cd进去</p>
+<pre><code class="bash">mkdir /soft
+mkdir /soft/hexo
+cd /soft/hexo
+</code></pre>
+<p>可以从<a target="_blank" rel="noopener" href="http://nodejs.cn/">官网</a>下载node.js，也可直接wget，下载后解压</p>
+<pre><code class="bash">wget https://nodejs.org/dist/v10.9.0/node-v10.9.0-linux-x64.tar.xz
+tar xf node-v10.9.0-linux-x64.tar.xz   //解压
+</code></pre>
+<p>安装</p>
+<pre><code class="bash">cd node-v10.9.0-linux-x64/
+./bin/node -v             // 如果出现版本号，说明安装成功
+</code></pre>
+<p>设置软连接</p>
+<pre><code class="bash">cd ..
+mv node-v10.9.0-linux-x64 nodejs //先改名
+
+ln -s /soft/hexo/nodejs/bin/node /usr/local/bin/node
+ln -s /soft/hexo/nodejs/bin/npm /usr/local/bin/npm
+</code></pre>
+<p>完成后检测版本，出现版本号即为安装成功</p>
+<pre><code class="bash">node -v //检查node版本
+npm -v //检查npm版本
+git --version //检查git版本
+</code></pre>
+<h2 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h2><p>在任意目录创建空文件夹，在文件夹中打开bash</p>
+<pre><code>npm i hexo-cli -g //安装Hexo
+hexo -v           //验证安装
+hexo init         //初始化\Blog文件夹
+npm install       //安装基本组件
+
+hexo g   //生成静态页面
+hexo s   //打开本地服务器
+</code></pre>
+<p>进入浏览器访问 localhost:4000 可以进入Hexo博客页面</p>
+<h2 id="3-载入sakura主题"><a href="#3-载入sakura主题" class="headerlink" title="3.载入sakura主题"></a>3.载入sakura主题</h2><p>hexo-Sakura主题载入方式：直接覆盖到博客根目录 </p>
+<p>可以再用 hexo g &amp;&amp; hexo s 检查主题是否生效</p>
+<h1 id="二、将hexo自动部署到centos云服务器"><a href="#二、将hexo自动部署到centos云服务器" class="headerlink" title="二、将hexo自动部署到centos云服务器"></a>二、将hexo自动部署到centos云服务器</h1><h2 id="1-服务器创建git用户"><a href="#1-服务器创建git用户" class="headerlink" title="1.服务器创建git用户"></a>1.<u><strong>服务器</strong></u>创建git用户</h2><p>1.创建一个git用户来运行git服务（root不安全），并设置密码。</p>
+<pre><code class="bash">sudo useradd git -m
+sudo passwd git
+</code></pre>
+<p>2.增加git用户执行sudo的权限</p>
+<pre><code class="bash">chmod 740 /etc/sudoers
+vim /etc/sudoers
+</code></pre>
+<p>找到以下内容：<code>root ALL=(ALL) ALL</code>在下面添加一行</p>
+<pre><code>git     ALL=(ALL)       ALL
+</code></pre>
+<p>保存退出后改回权限：</p>
+<pre><code>chmod 400 /etc/sudoers
+</code></pre>
+<h2 id="2-服务器打开RSA认证"><a href="#2-服务器打开RSA认证" class="headerlink" title="2.服务器打开RSA认证"></a>2.服务器打开RSA认证</h2><p>RSA用公钥加密，私钥解密，成为加密通信。</p>
+<h3 id="2-1开启认证配置"><a href="#2-1开启认证配置" class="headerlink" title="2.1开启认证配置"></a>2.1开启认证配置</h3><p><strong><u>服务器端centos：</u></strong></p>
+<pre><code class="bash">cd /etc/ssh/
+vi sshd_config
+</code></pre>
+<p>在sshd_config中开启以下几项：(前两项yes，后一项修改为如下)</p>
+<pre><code>RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile  .ssh/authorized_keys
+</code></pre>
+<p>重启sshd</p>
+<pre><code>systemctl stop sshd.service
+systemctl start sshd.service
+</code></pre>
+<h3 id="2-2建立ssh信任关系"><a href="#2-2建立ssh信任关系" class="headerlink" title="2.2建立ssh信任关系"></a>2.2建立ssh信任关系</h3><p>本地电脑生成秘钥对-》发送公钥到服务器-》本地可免密连接服务器</p>
+<p>1.**<u>在本地电脑</u>**生成密钥对</p>
+<pre><code class="bash">ssh-keygen -t rsa -C &quot;邮箱&quot; 
+</code></pre>
+<p>这里需要把生成的公钥id_rsa.pub的绝对路径复制下来，如：</p>
+<p>/home/xxx/.ssh/id_rsa.pub</p>
+<p>2.**<u>在服务器端</u>**切换至git用户，创建~/.ssh 文件夹</p>
+<pre><code>su git
+mkdir ~/.ssh
+</code></pre>
+<p>或者root用户直接创建：</p>
+<pre><code>cd /home/git/
+mkdir .ssh
+</code></pre>
+<p>3.**<u>在本地电脑</u>**，发送公钥 <strong>id_rsa.pub</strong> 到 <em><strong>/home/git/.ssh/authorzied_keys</strong></em></p>
+<pre><code>ssh-copy-id -i /home/xxx/.ssh/id_rsa.pub git@1.1.1.1.//把公钥发送给服务器
+ssh git@1.1.1.1 // 测试能否登录
+</code></pre>
+<p>通过ssh能够直接登录操作shell，后面要关掉git的这个shell权限的，不然要小心异地登录。</p>
+<p>可在服务器端的/home/git/.ssh下ls查看公钥</p>
+<p>4.服务器端，文件夹权限调整</p>
+<p><code>authorzied_keys</code>权限为600时才生效</p>
+<pre><code>cd /home/git/.ssh/
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorzied_keys
+</code></pre>
+<p>现在就搭建好git桥梁，为后面实现hexo d部署时，可以自动上传.</p>
+<h2 id="3-创建blog-git空仓库"><a href="#3-创建blog-git空仓库" class="headerlink" title="3.创建blog.git空仓库"></a>3.创建blog.git空仓库</h2><p>需要先在centos中安装git，这里直接用yum安装。</p>
+<pre><code class="bash">sudo yum install -y git
+</code></pre>
+<p>1.切换到git用户，以下代码块都是在git用户权限下进行操作：</p>
+<pre><code>su git                //切换git用户
+cd /home/git/
+mkdir -p projects/blog  //创建你的博客目录
+mkdir repos &amp;&amp; cd repos
+git init --bare blog.git  //创建一个空仓库
+cd blog.git/hooks
+vi post-receive  //创建hook钩子函数，输入以下内容
+git --work-tree=/home/git/projects/blog --git-dir=/home/git/repos/blog.git checkout -f
+
+chmod +x post-receive  // 修改钩子函数权限
+</code></pre>
+<p>2.改变 hexo.git 目录的拥有者为git用户：</p>
+<p>在/home/git/repos目录下使用root用户：</p>
+<pre><code>sudo chown -R git:git blog.git
+</code></pre>
+<p>3.添加备份目录</p>
+<pre><code>cd /home/git/projects/
+mkdir -p tmp/blog
+</code></pre>
+<p>修改/home/git/repos/blog.git/hooks中钩子post-receive的内容：</p>
+<p>（重点是git clone 克隆到主目录<code>home/git/projects/blog</code>主目录要配置到nginx中去的）</p>
+<pre><code>#!/bin/bash
+GIT_REPO=/home/git/repos/blog.git    # git仓库
+TMP_GIT_CLONE=/home/git/projects/tmp/blog
+PUBLIC_WWW=/home/git/projects/blog  # 网站目录
+rm -rf $&#123;TMP_GIT_CLONE&#125;
+git clone $GIT_REPO $TMP_GIT_CLONE
+rm -rf $&#123;PUBLIC_WWW&#125;/*
+cp -rf $&#123;TMP_GIT_CLONE&#125;/* $&#123;PUBLIC_WWW&#125;
+
+chmod +x post-receive          # 赋予脚本的执行权限
+</code></pre>
+<p>git用户赋权：</p>
+<pre><code>su git
+cd repos/
+sudo chmod +x post-receive
+exit // 退出到 root 登录
+chown -R git:git /home/git/repos/blog.git // 添加权限
+sudo chown git:git -R /home/git/projects/
+</code></pre>
+<p>4.为了安全起见，需要关闭git账号登录shell的权限(可放在最后做)</p>
+<pre><code>vim /etc/passwd
+</code></pre>
+<p>找到git账号(一般在最后面)添加：<code>/usr/bin/git-shell</code>，如：</p>
+<pre><code>git:x:1000:1000::/home/git:/usr/bin/git-shell
+</code></pre>
+<p>加上后git就只能git clone，如需shell操作，撤销<code>/usr/bin/git-shell</code>即可。</p>
+<p>5.在本地任意一空目录，测试git仓库是否可用（测试步骤，稍后可清除）</p>
+<pre><code>git clone git@1.1.1.1:/home/git/repos/blog.git
+</code></pre>
+<h2 id="4-hexo配置"><a href="#4-hexo配置" class="headerlink" title="4.hexo配置"></a>4.hexo配置</h2><p>修改博客根目录配置_config.yml，部署部分，增添repo：（以git用户的身份操作）</p>
+<pre><code>deploy:
+  type: git
+  message: update
+  gitee: git@1.1.1.1:/home/git/repos/blog.git
+  branch: master
+</code></pre>
+<p><strong>接下来，在用<code>hexo clean &amp;&amp; hexo g -d</code>时，就会自动上传。</strong></p>
+<blockquote>
+<p>只有在ssh秘钥配置成功，才能成功上传。如果需要修改公钥，要打开git操作shell的权限哦！<code>vim /etc/passwd</code>最后一句。及时开，及时关，做到万无一失。</p>
+</blockquote>
+<p>现在public生成的静态文件已经完好推送到服务器了！<br>现在需要Pages工作：即将静态页面显示在网站上。</p>
+<h2 id="5-nginx配置"><a href="#5-nginx配置" class="headerlink" title="5.nginx配置"></a>5.nginx配置</h2><h3 id="5-1-安装nginx"><a href="#5-1-安装nginx" class="headerlink" title="5.1 安装nginx"></a>5.1 安装nginx</h3><p>安装所需插件</p>
+<pre><code>yum -y install gcc #安装gcc
+gcc -v             #查看版本
+yum install -y pcre pcre-devel    #perl库
+yum install -y zlib zlib-devel    #压缩、解压缩库
+yum install -y openssl openssl-devel   #安全通信
+yum install -y gd gd-devel
+</code></pre>
+<p>安装nginx</p>
+<p>1.下载解压nginx安装包</p>
+<pre><code>wget http://nginx.org/download/nginx-1.9.9.tar.gz  
+tar -zxvf  nginx-1.9.9.tar.gz  #选在合适的地方解压
+</code></pre>
+<p>2.cd到/nginx-1.9.9目录下，执行：</p>
+<pre><code>./configure
+
+make
+
+make install
+</code></pre>
+<p>3.配置文件</p>
+<pre><code>vi /usr/local/nginx/conf/nginx.conf
+</code></pre>
+<p>nginx.conf说明</p>
+<pre><code>#user  nobody;
+worker_processes  1; #工作进程：数目。根据硬件调整，通常等于cpu数量或者2倍cpu数量。
+ 
+#错误日志存放路径
+#error_log  logs/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+ 
+#pid        logs/nginx.pid; # nginx进程pid存放路径
+ 
+ 
+events &#123;
+    worker_connections  1024; # 工作进程的最大连接数量
+&#125;
+ 
+ 
+http &#123;
+    include       mime.types; #指定mime类型，由mime.type来定义
+    default_type  application/octet-stream;
+ 
+    # 日志格式设置
+    #log_format  main  &#39;$remote_addr - $remote_user [$time_local] &quot;$request&quot; &#39;
+    #                  &#39;$status $body_bytes_sent &quot;$http_referer&quot; &#39;
+    #                  &#39;&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;&#39;;
+ 
+    #access_log  logs/access.log  main; #用log_format指令设置日志格式后，需要用access_log来指定日志文件存放路径
+                    
+    sendfile        on; #指定nginx是否调用sendfile函数来输出文件，对于普通应用，必须设置on。
+            如果用来进行下载等应用磁盘io重负载应用，可设着off，以平衡磁盘与网络io处理速度，降低系统uptime。
+    #tcp_nopush     on; #此选项允许或禁止使用socket的TCP_CORK的选项，此选项仅在sendfile的时候使用
+ 
+    #keepalive_timeout  0;  #keepalive超时时间
+    keepalive_timeout  65;
+ 
+    #gzip  on; #开启gzip压缩服务
+ 
+    #虚拟主机
+    server &#123;
+        listen       80;  #配置监听端口号
+        server_name  localhost; #配置访问域名，域名可以有多个，用空格隔开
+ 
+        #charset koi8-r; #字符集设置
+ 
+        #access_log  logs/host.access.log  main;
+ 
+        location / &#123;
+            root   html;
+            index  index.html index.htm;
+        &#125;
+        #错误跳转页
+        #error_page  404              /404.html; 
+ 
+        # redirect server error pages to the static page /50x.html
+        #
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html &#123;
+            root   html;
+        &#125;
+ 
+        # proxy the PHP scripts to Apache listening on 127.0.0.1:80
+        #
+        #location ~ \.php$ &#123;
+        #    proxy_pass   http://127.0.0.1;
+        #&#125;
+ 
+        # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+        #
+        #location ~ \.php$ &#123; #请求的url过滤，正则匹配，~为区分大小写，~*为不区分大小写。
+        #    root           html; #根目录
+        #    fastcgi_pass   127.0.0.1:9000; #请求转向定义的服务器列表
+        #    fastcgi_index  index.php; # 如果请求的Fastcgi_index URI是以 / 结束的, 该指令设置的文件会被附加到URI的后面并保存在变量$fastcig_script_name中
+        #    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
+        #    include        fastcgi_params;
+        #&#125;
+ 
+        # deny access to .htaccess files, if Apache&#39;s document root
+        # concurs with nginx&#39;s one
+        #
+        #location ~ /\.ht &#123;
+        #    deny  all;
+        #&#125;
+    &#125;
+ 
+ 
+    # another virtual host using mix of IP-, name-, and port-based configuration
+    #
+    #server &#123;
+    #    listen       8000;
+    #    listen       somename:8080;
+    #    server_name  somename  alias  another.alias;
+ 
+    #    location / &#123;
+    #        root   html;
+    #        index  index.html index.htm;
+    #    &#125;
+    #&#125;
+ 
+ 
+    # HTTPS server
+    #
+    #server &#123;
+    #    listen       443 ssl;  #监听端口
+    #    server_name  localhost; #域名
+ 
+    #    ssl_certificate      cert.pem; #证书位置
+    #    ssl_certificate_key  cert.key; #私钥位置
+ 
+    #    ssl_session_cache    shared:SSL:1m;
+    #    ssl_session_timeout  5m; 
+ 
+    #    ssl_ciphers  HIGH:!aNULL:!MD5; #密码加密方式
+    #    ssl_prefer_server_ciphers  on; # ssl_prefer_server_ciphers  on; #
+ 
+ 
+    #    location / &#123;
+    #        root   html;
+    #        index  index.html index.htm;
+    #    &#125;
+    #&#125;
+ 
+&#125;
+</code></pre>
+<ul>
+<li><p>端口号（服务器控制台安全组规则要打开端口）</p>
+</li>
+<li><p>修改域名</p>
+</li>
+<li><p>修改根目录位置</p>
+</li>
+<li><p>修改用户为root用户</p>
+<p><img src="/home/constantine/%E5%9B%BE%E7%89%87/sendpix0.jpg" alt="sendpix0"></p>
+<p><img src="/home/constantine/%E5%9B%BE%E7%89%87/sendpix1.jpg" alt="sendpix1"></p>
+</li>
+</ul>
+<p>4.启动nginx</p>
+<pre><code>sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+</code></pre>
+<h3 id="5-2-nginx常用命令"><a href="#5-2-nginx常用命令" class="headerlink" title="5.2 nginx常用命令"></a>5.2 nginx常用命令</h3><p>启动：/usr/local/nginx/sbin/nginx<br>关闭：/usr/local/nginx/sbin/nginx -s stop<br>重启：/usr/local/nginx/sbin/nginx -s reload<br>查看nginx的进程pid： cat /usr/local/nginx/logs/nginx.pid<br>查看版本：/usr/local/nginx/sbin/nginx -V<br>修改配置文件：vim /usr/local/nginx/conf/nginx.conf<br>修改完后测试：/usr/local/nginx/sbin/nginx -t</p>
+<p>也可为nginx取别名，更方便的使用命令</p>
+<pre><code>alias nginx=&#39;/usr/local/nginx/sbin/nginx&#39;
+</code></pre>
+<p>启动：nginx<br>关闭：nginx -s stop<br>重启：nginx -s reload<br>查看nginx的进程pid： cat /usr/local/nginx/logs/nginx.pid<br>查看版本：nginx -V<br>修改配置文件：vim /usr/local/nginx/conf/nginx.conf<br>修改完后测试：nginx -t</p>
+<h1 id="三、使用cdn进行加速"><a href="#三、使用cdn进行加速" class="headerlink" title="三、使用cdn进行加速"></a>三、使用cdn进行加速</h1><h2 id="图片资源加速"><a href="#图片资源加速" class="headerlink" title="图片资源加速"></a>图片资源加速</h2><p>推荐方法： </p>
+<p>jsdelivr: 将你的图片传至GitHub仓库并<strong>发布</strong>，通过 <a target="_blank" rel="noopener" href="https://cdn.jsdelivr.com/gh/|USERNAME|/%E7%9B%AE%E5%BD%95/xxxxx.jpg">https://cdn.jsdelivr.com/gh/|USERNAME|/目录/xxxxx.jpg</a> （也可以是webp,png等格式图片，随意）</p>
+<p>PicGo: 项目地址：<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo%E5%B0%86%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0%E5%88%B0%E9%85%8D%E7%BD%AE%E5%A5%BD%E7%9A%84%E5%9B%BE%E5%BA%8A%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%BC%95%E7%94%A8">https://github.com/Molunerfinn/PicGo将图片上传到配置好的图床，直接引用</a></p>
+<h2 id="Cloudflare-CDN替换为国内CDN"><a href="#Cloudflare-CDN替换为国内CDN" class="headerlink" title="Cloudflare CDN替换为国内CDN"></a>Cloudflare CDN替换为国内CDN</h2><p>这里使用的是国内的BootCDN，速度蛮不错 </p>
+<p>方法： </p>
+<p>在 \themes\Sakura\source\js\ 中找到 sakura-app.js </p>
+<p>编辑搜索 cloudflare 找到第1114行如下内容：</p>
+<pre><code>$.getScript(&#39;//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML&#39;, function () &#123;
+</code></pre>
+<p>替换为</p>
+<pre><code>$.getScript(&#39;//cdn.bootcss.com/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML&#39;, function () &#123;
+</code></pre>
+<p>在 \themes\Sakura\layout_widget\ 中找到 common-article.ejs</p>
+<p>将 第2行 如下内容：</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css&quot;&gt;
+</code></pre>
+<p>替换为</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.bootcss.com/tocbot/4.10.1/tocbot.css&quot;&gt;
+</code></pre>
+<h2 id="字体资源替换"><a href="#字体资源替换" class="headerlink" title="字体资源替换"></a>字体资源替换</h2><p>在 \themes\Sakura\layoout_partial\ 中找到 head.ejs</p>
+<p>这里存在拖慢加载速度的字体资源</p>
+<p>将第28行以下内容</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC&quot; media=&quot;all&quot;&gt;
+</code></pre>
+<p>替换为</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://flymc.top/css/0font.css&quot; media=&quot;all&quot;&gt;
+
+
+//这里引用的是我自己扒过来的字体库
+//如果你想引用本地资源的话，也可以自己用上面的链接扒一扒，麻烦一点
+//所以这里我提供了我自己的代码
+</code></pre>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+               <!-- <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16undefined"></li> -->
+                <li class="wechat-code"><img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/images/donate/vx.jpg"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+          
+            <div class="post-nepre half previous">
+          
+            <a href="/2021/11/28/typore/" rel="prev">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                typore</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+        
+          
+            <div class="post-nepre half next">
+          
+            <a href="/2018/12/12/Hexo-Theme-Sakura/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://static.2heng.xin/wp-content/uploads//2019/02/wallhaven-672007-1-1024x576.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://static.2heng.xin/wp-content/uploads//2019/02/wallhaven-672007-1-1024x576.png">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                Hexo-Theme-Sakura</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+<div id="tcomments"></div>
+<script src="//cdn.jsdelivr.net/npm/twikoo@1.4.18/dist/twikoo.all.min.js"></script>
+<script>
+    twikoo.init({
+        el: '#tcomments',
+        envId: "",
+        region: "",
+        path: window.location.pathname,
+        
+  });
+
+</script>
+
+
+
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.14/img/avatar.jpg" itemprop="image" alt="walnut" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="" itemprop="url" rel="author">walnut</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i></p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
+</div>
+
+
+
+    </div>    
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+    <!-- <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2022 milkomeda<br>
+      powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer> -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="site-info">
+    <div class="footertext">
+      <div class="img-preload">
+        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
+        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
+      </div>
+      <p style="color: #666666;">&copy 2022</p>
+    </div>
+    <div class="footer-device">
+    <p style="font-family: 'Ubuntu', sans-serif;">
+        <span style="color: #b9b9b9;">Powered by Hexo </a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i>  Theme Sakura</a>
+        </span>
+      </p>
+    </div>
+  </div><!-- .site-info -->
+</footer>
+
+
+
+<!-- <script src="/js/tocbot.js"></script> -->
+<script type="text/javascript" src="/js/lib.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="/js/InsightSearch.js"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="/js/zoom.min.js"></script>
+<script type="text/javascript" src="/js/sakura-app.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script>
+<script src="/js/botui.js"></script>
+<!-- 不蒜子 网页计数器 -->
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
+<script type="text/javascript">
+/* <![CDATA[ */
+if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+  var Poi = {"pjax":"1","movies":{"url": "","name":"","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+} else {
+  var Poi = {"pjax":"1","movies":{"url": "","name":"","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
+}
+/* ]]> */
+
+</script>
+<script>
+$(document).ready(function() {
+  if ($(".toc").length > 0 && document.body.clientWidth > 1200) {
+    if ($(".pattern-center").length > 0) { //有图的情况
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -400,
+          scrollSmoothOffset: -85
+      });
+    } else {
+      tocbot.init({
+          // Where to render the table of contents.
+          tocSelector: '.toc', // 放置目录的容器
+          // Where to grab the headings to build the table of contents.
+          contentSelector: '.entry-content', // 正文内容所在
+          // Which headings to grab inside of the contentSelector element.
+          scrollSmooth: true,
+          headingSelector: 'h1, h2, h3, h4, h5', // 需要索引的标题级别
+          headingsOffset: -85,
+          scrollSmoothOffset: -85
+      });
+    }
+    var offsetTop = $('.toc').offset().top - 95;
+    window.onscroll = function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop >= offsetTop) {
+        $('.toc').addClass('toc-fixed');
+      } else {
+        $('.toc').removeClass('toc-fixed');
+      }
+    }
+  }
+});
+</script>
+
+    <div class="openNav no-select" style="height: 50px;">
+      <div class="iconflat no-select" style="width: 50px; height: 50px;">
+        <div class="icon"></div>
+      </div>
+      <div class="site-branding search-form-submit">
+        <i class="iconfont js-toggle-search iconsearch icon-search"></i>
+      </div>
+    </div>
+  </section>
+  <div id="mo-nav" class="">
+  <div class="m-avatar">
+    <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/img/avatar.jpg">
+  </div>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">Akashicrecords</p>
+  <p style="text-align: center; word-spacing: 20px;">
+    
+      
+        <a href="http://github.com/naphth" class="fa fa-github" target="_blank" style="color: #333; margin-left:20px"></a>
+      
+        <a href="https://www.zhihu.com/people/sheng-xia-ying-hua-ji" class="fa fa-zhihu" target="_blank" style="color: #dd4b39; margin-left:20px"></a>
+      
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=741712340&site=qq&menu=yes" class="fa fa-qq" target="_blank" style="color: #25c6fe; margin-left:20px"></a>
+      
+    
+  </p>
+  <ul id="menu-new-1" class="menu">
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-fort-awesome faa-shake" aria-hidden="true"></i>
+            首页
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/archives">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-archive faa-shake" aria-hidden="true"></i>
+            归档
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/categories/%E6%8A%80%E6%9C%AF/">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                  技术
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E6%96%87%E7%AB%A0/">
+                  <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  文章
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E8%B5%84%E6%BA%90/">
+                  <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                  资源
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E9%9A%8F%E6%83%B3/">
+                  <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                  随想
+                </a>
+              </li>
+            
+              <li>
+                <a href="/categories/%E7%AC%94%E8%AE%B0/">
+                  <i class="fa fa-book" aria-hidden="true"></i>
+                  笔记
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
+            清单
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/books/">
+                  <i class="fa fa-th-list faa-bounce" aria-hidden="true"></i>
+                  书单
+                </a>
+              </li>
+            
+              <li>
+                <a href="/bangumis/">
+                  <i class="fa fa-film faa-vertical" aria-hidden="true"></i>
+                  番组
+                </a>
+              </li>
+            
+              <li>
+                <a href="/music/">
+                  <i class="fa fa-headphones" aria-hidden="true"></i>
+                  歌单
+                </a>
+              </li>
+            
+              <li>
+                <a href="/comic/">
+                  <i class="fa fa-photo" aria-hidden="true"></i>
+                  漫画
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/comment/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-pencil-square-o faa-tada" aria-hidden="true"></i>
+            留言板
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="javascript:;">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-android faa-vertical" aria-hidden="true"></i>
+            游戏
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/adarkroom/?lang=zh_cn/">
+                  <i class="fa " aria-hidden="true"></i>
+                  小黑屋
+                </a>
+              </li>
+            
+              <li>
+                <a href="/constellation/">
+                  <i class="fa " aria-hidden="true"></i>
+                  星座
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/links/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-link faa-shake" aria-hidden="true"></i>
+            友人帐
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/donate/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-heart faa-pulse" aria-hidden="true"></i>
+            赞赏
+          </span>
+        </a>
+        
+      </li>
+    
+      <li>
+        <a href="/">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-leaf faa-wrench" aria-hidden="true"></i>
+            关于
+          </span>
+        </a>
+        
+          <ul class="sub-menu">
+            
+              <li>
+                <a href="/about/">
+                  <i class="fa fa-meetup" aria-hidden="true"></i>
+                  我？
+                </a>
+              </li>
+            
+              <li>
+                <a href="/theme-sakura/">
+                  <i class="fa iconfont icon-sakura" aria-hidden="true"></i>
+                  Blog
+                </a>
+              </li>
+            
+              <li>
+                <a href="/lab/">
+                  <i class="fa fa-cogs" aria-hidden="true"></i>
+                  Lab
+                </a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li>
+        <a href="/atom.xml">
+          <span class="faa-parent animated-hover">
+            <i class="fa  fa-rss faa-pulse" aria-hidden="true"></i>
+            RSS
+          </span>
+        </a>
+        
+      </li>
+    
+  </ul>
+  <p style="text-align: center; font-size: 13px; color: #b9b9b9;">&copy 2019 hexo-sakura</p>
+</div>
+<button onclick="topFunction()" class="mobile-cd-top" id="moblieGoTop" title="Go to top" style="display: none;"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<style>
+  .aplayer .aplayer-lrc {
+    height: 35px;
+  }
+  .aplayer .aplayer-lrc p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px !important;
+  }
+  .aplayer .aplayer-lrc p.aplayer-lrc-current{
+    color: #FF1493;
+  }
+  .aplayer.aplayer-narrow .aplayer-body{
+    left: -66px !important;
+  }
+  .aplayer.aplayer-fixed .aplayer-lrc {
+    display: none;
+  }
+  .aplayer .aplayer-lrc.aplayer-lrc-hide {
+      display:none !important;
+  }
+  .aplayer.aplayer-fixed .lrc-show {
+    display: block;
+    background: rgba(255, 255, 255, 0.8);
+  }
+</style>
+<meting-js
+
+    id="2660651585"
+
+    server="netease"
+
+    type="playlist"
+
+    fixed="true"
+
+    autoplay="false"
+
+    loop="all"
+
+    order="random"
+
+    preload="auto"
+
+    volume="0.7"
+
+    mutex="true"
+
+</meting-js>
+<script>
+  $(function(){
+    $('body').on('click', '.aplayer', function(){
+      if($('.aplayer-button').hasClass('aplayer-play')) {
+        $('.aplayer-lrc').removeClass('lrc-show');
+      } else {
+        $('.aplayer-lrc').addClass('lrc-show');
+      }
+    })
+  });
+</script>
+  <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js"></script> 
+  <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js"></script>   
+</body>
+</html>

@@ -492,20 +492,6 @@
         
       </section>
       
-<div id="vcomments"></div>
-<script>
-  window.onload = function(){
-      var valine = new Valine();
-      valine.init({
-        el: '#vcomments',
-        appId: "",
-        appKey: "",
-        path: window.location.pathname,
-        placeholder: "你是我一生只会遇见一次的惊喜 ..."
-      })
-  }
-</script>
-
 
 
     <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
@@ -520,7 +506,7 @@
         Waline({
               el: '#waline',
               serverURL: 'waline-naphth.vercel.app',
-              pageSize: '10',
+              pageSize: '11',
               lang: 'zh-CN',
               requiredFields: ['nick','mail'], //设置必填项
               placeholder: '祝开开心心！',

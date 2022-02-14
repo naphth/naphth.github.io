@@ -421,6 +421,22 @@
 
       <!-- .entry-content -->
       
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "",
+        appKey: "",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
+</script>
+
+
+
     <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
     <div id="waline"></div>
     <style>

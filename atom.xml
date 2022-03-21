@@ -6,10 +6,36 @@
   <link href="http://www.rikka.world/atom.xml" rel="self"/>
   
   <link href="http://www.rikka.world/"/>
-  <updated>2021-06-12T18:09:50.425Z</updated>
+  <updated>2022-03-17T14:17:45.459Z</updated>
   <id>http://www.rikka.world/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>服务器部署jupyter notebook</title>
+    <link href="http://www.rikka.world/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/"/>
+    <id>http://www.rikka.world/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/</id>
+    <published>2022-03-16T19:38:05.000Z</published>
+    <updated>2022-03-17T14:17:45.459Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;因此学期开了两门在课堂演示和讲解python代码的课，故想在课堂上跟着练习；可我的陈年老旧笔记本太重、续航也不太行，所以想到了可以在（承担了太多的）服务器上部署jupyter，通过平板浏览器远程访问就行了。&lt;/p&gt;
+&lt;h2 id=&quot;安装anaconda&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://www.rikka.world/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="web" scheme="http://www.rikka.world/tags/web/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -44,6 +70,31 @@
     
     <category term="技术" scheme="http://www.rikka.world/categories/%E6%8A%80%E6%9C%AF/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>说明书</title>
+    <link href="http://www.rikka.world/2021/07/01/%E8%AF%B4%E6%98%8E%E4%B9%A6/"/>
+    <id>http://www.rikka.world/2021/07/01/%E8%AF%B4%E6%98%8E%E4%B9%A6/</id>
+    <published>2021-06-30T19:38:05.000Z</published>
+    <updated>2022-02-09T05:51:28.169Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;绪&quot;&gt;&lt;a href=&quot;#绪&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://www.rikka.world/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="web" scheme="http://www.rikka.world/tags/web/"/>
     
   </entry>
   

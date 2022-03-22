@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">typore | milkomeda</title>
+  <title itemprop="name">某gkd自动打卡脚本 | milkomeda</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -424,14 +424,47 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
           <header class="entry-header">
-            <h1 class="entry-title">typore</h1>
-            <p class="entry-census">hojun&nbsp;·&nbsp;2021-11-28&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+            <h1 class="entry-title">某gkd自动打卡脚本</h1>
+            <p class="entry-census">walnut&nbsp;·&nbsp;2021-11-28&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
 
             <hr>
           </header>
         
         <div class="entry-content">
-          
+          <p>项目来源&amp;源码：<a target="_blank" rel="noopener" href="https://github.com/IanSmith123/ucas-covid19">https://github.com/IanSmith123/ucas-covid19</a></p>
+<p>国科大疫情防控每日填报助手，用于解决忘记填写企业微信中身体状况每日打卡的问题</p>
+<p><strong>请在合理且合法的范围内使用本程序</strong>。</p>
+<p><strong>本程序仅用于解决忘记打卡这一问题，如果填报表中任意情况发生变化，比如地点发生变化，处在居家隔离阶段等情况，请务必在程序运行之前手动打卡。由于各种已知的或未知的原因可能造成打卡信息不一定总是准确的，请经常人工查看企业微信里面的填报表信息是否正确</strong></p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>在服务器上执行：</p>
+<pre><code>git clone https://github.com/IanSmith123/ucas-covid19 --depth=1
+or
+wget https://github.com/IanSmith123/ucas-covid19/archive/refs/heads/master.zip
+</code></pre>
+<p>解压并进入项目文件夹</p>
+<pre><code>tar -zxvf ucas-covid19-master.zip
+cd /ucas-covid19-master
+</code></pre>
+<p>安装依赖，依赖库为<code>requests</code>和<code>pytz</code></p>
+<pre><code>pip3 install -r requirements.txt
+</code></pre>
+<h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><p>在项目文件中输入</p>
+<pre><code>vim sub.py
+</code></pre>
+<p>更改配置文件</p>
+<pre><code># 全局变量，如果使用自己的服务器运行请根据需要修改 -&gt;以下变量&lt;-
+user = &quot;USERNAME&quot;  # sep 账号
+passwd = r&quot;PASSWORD&quot;  # sep 密码
+api_key = &quot;&quot;  # 可选， server 酱的通知 api key
+</code></pre>
+<p>设置邮件通知</p>
+<pre><code># 可选，如果需要邮件通知，那么修改下面五行 :)
+smtp_port = &quot;SMTP_PORT&quot;  #若选用QQ邮箱，此项为465
+smtp_server = &quot;SMTP_SERVER&quot;   #若选用QQ邮箱，此项为smtp.qq.com
+sender_email = &quot;&quot;  #发送邮箱账号
+sender_email_passwd = r&quot;&quot;  #发送邮箱密码
+receiver_email = &quot;&quot;  #接收邮箱账号
+</code></pre>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2>
         </div>
         <!-- .entry-content -->
         <div class="single-reward">
@@ -526,16 +559,16 @@
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="hojun.cn" class="profile gravatar"><img src="https://wx1.sinaimg.cn/large/006bYVyvgy1ftand2qurdj303c03cdfv.jpg" itemprop="image" alt="hojun" height="70" width="70"></a>
+          <a href="rainend.org" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.14/img/avatar.jpg" itemprop="image" alt="walnut" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="hojun.cn" itemprop="url" rel="author">hojun</a>
+            <a href="rainend.org" itemprop="url" rel="author">walnut</a>
             </h3>
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i>一个好奇的人</p>
+        <p><i class="iconfont icon-write"></i></p>
       </section>
     </main><!-- #main -->
   </div><!-- #primary -->

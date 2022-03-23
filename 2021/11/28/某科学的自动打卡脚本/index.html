@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">射电天文简述 | milkomeda</title>
+  <title itemprop="name">某科学的自动打卡脚本 | milkomeda</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -416,6 +416,30 @@
 <link rel="stylesheet" href="https://cdn.bootcss.com/tocbot/4.10.1/tocbot.css">
 <div class="pattern-center-blank"></div>
 
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://p1.meituan.net/dpgroup/70dc502b09de5e6cc7781bcb59e9de481359486.png);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://p1.meituan.net/dpgroup/70dc502b09de5e6cc7781bcb59e9de481359486.png">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      某科学的自动打卡脚本</h1>
+      <p class="entry-census">
+        <span>
+          <a href="rainend.org">
+            <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.14/img/avatar.jpg">
+          </a>
+        </span>
+        <span>
+          <a href="rainend.org">walnut</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2021-11-28<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
+    </header>
+  </div>
+
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
@@ -423,27 +447,42 @@
         <div class="toc"></div>
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
-          <header class="entry-header">
-            <h1 class="entry-title">射电天文简述</h1>
-            <p class="entry-census">walnut&nbsp;·&nbsp;2022-3-23&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
-
-            <hr>
-          </header>
-        
         <div class="entry-content">
-          <h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>​    射电天文学是什么？回答这个问题之前最好先谈论一下它的‘上位’问题：天文学是什么？研究天文的手段有哪些？</p>
-<p>​    <strong>现代天文学给出的定义是：天文学是研究宇宙天体及其物理规律的科学。</strong></p>
-<p><font color=#DCDCDC><font size=2>研究地球是天文吗？ 不是。这种学科叫“地球物理”。</font></font></p>
-<p><font color=#DCDCDC><font size=2>研究大气是天文吗？ 不是。这种学科叫”气象学“或“大气科学”。</font></font></p>
-<p><font color=#DCDCDC><font size=2>研究大气层以外到月球之间的空间是天文吗？ 不是。这种学科叫“空间科学”。</font></font></p>
-<p>​    人类通过来自宇宙的各种媒介(messenger)及其配套的观测手段来获取各类宇宙天体的信息，而后通过这些信息尝试着去理解宇宙。这些来自宇宙的媒介目前可分为四大类：电磁波、引力波、宇宙线还有中微子；其中电磁波是自古以来的主流观测媒介，其历史可以追述到人类第一次抬头仰望星空的时候。（可见光也只是一种波长在400nm-700nm波段的电磁波），下面就是一张经典的电磁波谱图片：</p>
-<p><img src="C:\Users\asuka\Desktop\172120l87krntrc9648hur.jpg" alt="172120l87krntrc9648hur"></p>
-<p>​    图中标有彩色光谱的区域就是人类肉眼可见的光的频段，称为<strong>可见光</strong>窗口。可以看到地球大气对可见光的吸收并不是特别显著，所以人们仅用肉眼就能直接观测宇宙。</p>
-<p>​    二十世纪三十年代之前，天文学家们都只能通过可见光这一种途径来进行天文观测，直到电磁波探测技术的出现给了我们另一种可以了解宇宙天体的途径。</p>
-<p>​    在电磁波频谱图右边，那有一块很大的窗口就是<strong>射电窗口</strong>（15MHz-1300GHz），因为地球大气的组分对射电辐射的吸收不显著，对射电波来说大气可以看作是透明的。</p>
-<p><font color=#DCDCAC><font size=2>题外话：图中可以看到紫外、X射电波段的窗口被截断了，红外和远红外的观测条件也不是特别理想；所以X射线天文和远红外天文几乎都选择发射带有探测器/望远镜的卫星避开地球的大气去观测。</font></font></p>
-<p>​    这里还要额外说明一下，虽然像x射线、可见光、射电等都是电磁波，但是它们所使用的探测原理和技术在很多方面可以说是毫不相干，<strong>一般情况不可把不同波段的探测设备混作一谈来进行比较</strong>，比如网上随处可见的把射电望远镜拿去和光学望远镜<u>比口径</u>，属于是贻笑大方了。其原因可以由波粒二象性来简要解释：越是高频的电磁波其粒子性越强，越低频的电磁波其波动性越强，那就需要不同的理论基础去实现。比如射电望远镜接收的是波动性显著的电磁波，所以其理论基础主要是电动力学、微波原理、天线原理、射电干涉原理等；射电望远镜的接收天线也都是金属，且不一定需要是抛物面形状的天线；和光学望远镜的理论基础及构成可以说是大相径庭。</p>
-<h1 id="射电天文观测技术"><a href="#射电天文观测技术" class="headerlink" title="射电天文观测技术"></a>射电天文观测技术</h1><p>对于一个单口径的射电望远镜来说，无论它大小如何、灵敏度和分辨率有多高，其组成成分也都是那么几样</p>
+          <p>项目来源&amp;源码：<a target="_blank" rel="noopener" href="https://github.com/IanSmith123/ucas-covid19">https://github.com/IanSmith123/ucas-covid19</a></p>
+<p>国科大疫情防控每日填报助手，用于解决忘记填写企业微信中身体状况每日打卡的问题</p>
+<p><strong>请在合理且合法的范围内使用本程序</strong>。</p>
+<p><strong>本程序仅用于解决忘记打卡这一问题，如果填报表中任意情况发生变化，比如地点发生变化，处在居家隔离阶段等情况，请务必在程序运行之前手动打卡。由于各种已知的或未知的原因可能造成打卡信息不一定总是准确的，请经常人工查看企业微信里面的填报表信息是否正确</strong></p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>在服务器上执行：</p>
+<pre><code>git clone https://github.com/IanSmith123/ucas-covid19 --depth=1
+or
+wget https://github.com/IanSmith123/ucas-covid19/archive/refs/heads/master.zip
+</code></pre>
+<p>解压并进入项目文件夹</p>
+<pre><code>tar -zxvf ucas-covid19-master.zip
+cd /ucas-covid19-master
+</code></pre>
+<p>安装依赖，依赖库为<code>requests</code>和<code>pytz</code></p>
+<pre><code>pip3 install -r requirements.txt
+</code></pre>
+<h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><p>在项目文件中输入</p>
+<pre><code>vim sub.py
+</code></pre>
+<h3 id="更改配置文件"><a href="#更改配置文件" class="headerlink" title="更改配置文件"></a><strong>更改配置文件</strong></h3><pre><code># 全局变量，如果使用自己的服务器运行请根据需要修改 -&gt;以下变量&lt;-
+user = &quot;USERNAME&quot;  # sep 账号
+passwd = r&quot;PASSWORD&quot;  # sep 密码
+api_key = &quot;&quot;  # 可选， server 酱的通知 api key
+</code></pre>
+<h3 id="设置邮件通知"><a href="#设置邮件通知" class="headerlink" title="设置邮件通知"></a>设置邮件通知</h3><pre><code># 可选，如果需要邮件通知，那么修改下面五行 :)
+smtp_port = &quot;SMTP_PORT&quot;  #若选用QQ邮箱，此项为465
+smtp_server = &quot;SMTP_SERVER&quot;   #若选用QQ邮箱，此项为smtp.qq.com
+sender_email = &quot;&quot;  #发送邮箱账号
+sender_email_passwd = r&quot;&quot;  #发送邮箱密码
+receiver_email = &quot;&quot;  #接收邮箱账号
+</code></pre>
+<h2 id="定时执行脚本"><a href="#定时执行脚本" class="headerlink" title="定时执行脚本"></a>定时执行脚本</h2><p>修改crontab，设定为每天八点半运行；可自行更改脚本执行时间。</p>
+<pre><code>$ crontab -e # 进入crontab的文本模式
+30 8 * * * /usr/bin/python3  /root/ucas-covid19/sub.py &gt;&gt;/tmp/yqfk.log # 在文本最后一行添加,注意修改为实际路径，修改后立即生效。请注意这里使用是python3不是python2
+</code></pre>
 
         </div>
         <!-- .entry-content -->
@@ -472,19 +511,36 @@
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
+          
+            <div class="post-nepre half previous">
+          
+            <a href="/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/" rel="prev">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://p0.meituan.net/dpgroup/8b25e72757bdae2e1ac5f3f8b0cebebe482459.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://p0.meituan.net/dpgroup/8b25e72757bdae2e1ac5f3f8b0cebebe482459.jpg">
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                服务器部署jupyter notebook</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
         
           
-            <div class="post-nepre full next">
+            <div class="post-nepre half next">
           
-            <a href="/2022/03/23/%E4%B8%AD%E5%AD%90%E6%98%9F/" rel="next">
+            <a href="/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/img/bz23.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/img/bz23.jpg">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                中子星&amp;脉冲星</h3>
+                射电天文简述</h3>
                 <hr>
               </div>
             </a>
@@ -522,11 +578,11 @@
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.14/img/avatar.jpg" itemprop="image" alt="walnut" height="70" width="70"></a>
+          <a href="rainend.org" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.14/img/avatar.jpg" itemprop="image" alt="walnut" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="" itemprop="url" rel="author">walnut</a>
+            <a href="rainend.org" itemprop="url" rel="author">walnut</a>
             </h3>
           </div>
         </div>

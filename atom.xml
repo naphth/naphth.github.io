@@ -6,10 +6,55 @@
   <link href="http://www.rikka.world/atom.xml" rel="self"/>
   
   <link href="http://www.rikka.world/"/>
-  <updated>2022-03-22T12:22:11.230Z</updated>
+  <updated>2022-03-23T06:49:11.911Z</updated>
   <id>http://www.rikka.world/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://www.rikka.world/2022/03/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87/"/>
+    <id>http://www.rikka.world/2022/03/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87/</id>
+    <published>2022-03-23T14:53:39.225Z</published>
+    <updated>2022-03-23T06:49:11.911Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h1&gt;&lt;p&gt;​    射电天文学是什么？回答这个问题之前最好先谈论一下它的‘上位’问题：天文学是什么？研究天文的手段有哪些？&lt;/p&gt;
+&lt;p&gt;​   </summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>中子星&amp;脉冲星</title>
+    <link href="http://www.rikka.world/2022/03/23/%E4%B8%AD%E5%AD%90%E6%98%9F/"/>
+    <id>http://www.rikka.world/2022/03/23/%E4%B8%AD%E5%AD%90%E6%98%9F/</id>
+    <published>2022-03-23T06:22:42.000Z</published>
+    <updated>2022-03-23T08:41:27.918Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://www.rikka.world/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>服务器部署jupyter notebook</title>

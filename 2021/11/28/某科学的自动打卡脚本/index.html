@@ -483,9 +483,20 @@ sender_email = &quot;&quot;  #发送邮箱账号
 sender_email_passwd = r&quot;&quot;  #发送邮箱密码
 receiver_email = &quot;&quot;  #接收邮箱账号
 </code></pre>
-<h2 id="定时执行脚本"><a href="#定时执行脚本" class="headerlink" title="定时执行脚本"></a>定时执行脚本</h2><p>修改crontab，设定为每天八点半运行；可自行更改脚本执行时间。</p>
+<h2 id="定时执行脚本"><a href="#定时执行脚本" class="headerlink" title="定时执行脚本"></a>定时执行脚本</h2><p>修改crontab，设定为每天八点半运行。</p>
 <pre><code>$ crontab -e # 进入crontab的文本模式
 30 8 * * * /usr/bin/python3  /root/ucas-covid19/sub.py &gt;&gt;/tmp/yqfk.log # 在文本最后一行添加,注意修改为实际路径，修改后立即生效。请注意这里使用是python3不是python2
+</code></pre>
+<p>也可自行设置crontab脚本执行时间：</p>
+<pre><code>
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name command to be executed
 </code></pre>
 
         </div>

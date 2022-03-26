@@ -5,7 +5,7 @@
 <li>增加 看板娘样式设置，可直接设置宽高度等</li>
 <li>支持多种一言接口，基于 JQuery UI 实现拖拽</li>
 </ul>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><pre><code class="shell">│  demo1-default.html       // 常规引用 Demo
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><pre><code class="lang-shell">│  demo1-default.html       // 常规引用 Demo
 │  demo2-autoload.html      // autoload.js Demo
 │  demo3-waifu-tips.html    // 内置 waifu-tips Demo
 │
@@ -35,7 +35,7 @@
 </ol>
 </li>
 </ul>
-<pre><code class="html">&lt;html&gt;
+<pre><code class="lang-html">&lt;html&gt;
 &lt;head&gt;
 
         · · ·   · · ·
@@ -59,10 +59,10 @@
             &lt;span class=&quot;fui-cross&quot;&gt;&lt;/span&gt;
         &lt;/div&gt;
     &lt;/div&gt;
-    
+
     &lt;script src=&quot;path/to/waifu-tips.js&quot;&gt;&lt;/script&gt;
     &lt;script src=&quot;path/to/live2d.js&quot;&gt;&lt;/script&gt;
-    
+
     &lt;script type=&quot;text/javascript&quot;&gt;
         live2d_settings[&#39;modelId&#39;] = 1;
         live2d_settings[&#39;modelTexturesId&#39;] = 87;
@@ -78,12 +78,12 @@
 </ol>
 </li>
 </ul>
-<pre><code class="html">    · · ·   · · ·
+<pre><code class="lang-html">    · · ·   · · ·
     &lt;script src=&quot;path/to/autoload.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-<pre><code class="javascript">try {
+<pre><code class="lang-javascript">try {
     · · ·   · · ·
     live2d_settings[&#39;modelId&#39;] = 1;
     live2d_settings[&#39;modelTexturesId&#39;] = 87;
@@ -148,16 +148,11 @@
 </li>
 <li><p>看板娘样式设置</p>
 <ul>
-<li><p><code>live2d_settings[&#39;waifuSize&#39;]</code>，看板娘大小，例如 <code>&#39;280x250&#39;</code>，<code>&#39;600x535&#39;</code></p>
-</li>
-<li><p><code>live2d_settings[&#39;waifuTipsSize&#39;]</code>，提示框大小，例如 <code>&#39;250x70&#39;</code>，<code>&#39;570x150&#39;</code></p>
-</li>
-<li><p><code>live2d_settings[&#39;waifuFontSize&#39;]</code>，提示框字体，例如 <code>&#39;12px&#39;</code>，<code>&#39;30px&#39;</code></p>
-</li>
-<li><p><code>live2d_settings[&#39;waifuToolFont&#39;]</code>，工具栏字体，例如 <code>&#39;14px&#39;</code>，<code>&#39;36px&#39;</code></p>
-</li>
-<li><p><code>live2d_settings[&#39;waifuToolLine&#39;]</code>，工具栏行高，例如 <code>&#39;20px&#39;</code>，<code>&#39;36px&#39;</code></p>
-</li>
+<li><code>live2d_settings[&#39;waifuSize&#39;]</code>，看板娘大小，例如 <code>&#39;280x250&#39;</code>，<code>&#39;600x535&#39;</code></li>
+<li><code>live2d_settings[&#39;waifuTipsSize&#39;]</code>，提示框大小，例如 <code>&#39;250x70&#39;</code>，<code>&#39;570x150&#39;</code></li>
+<li><code>live2d_settings[&#39;waifuFontSize&#39;]</code>，提示框字体，例如 <code>&#39;12px&#39;</code>，<code>&#39;30px&#39;</code></li>
+<li><code>live2d_settings[&#39;waifuToolFont&#39;]</code>，工具栏字体，例如 <code>&#39;14px&#39;</code>，<code>&#39;36px&#39;</code></li>
+<li><code>live2d_settings[&#39;waifuToolLine&#39;]</code>，工具栏行高，例如 <code>&#39;20px&#39;</code>，<code>&#39;36px&#39;</code></li>
 <li><p><code>live2d_settings[&#39;waifuToolTop&#39;]</code>，工具栏顶部边距，例如 <code>&#39;0px&#39;</code>，<code>&#39;-60px&#39;</code></p>
 </li>
 <li><p><code>live2d_settings[&#39;waifuMinWidth&#39;]</code><br>面页小于 指定宽度 隐藏看板娘，例如 <code>&#39;disable&#39;</code> (停用)，<code>&#39;768px&#39;</code></p>
@@ -202,5 +197,5 @@
 <h2 id="版权声明"><a href="#版权声明" class="headerlink" title="版权声明"></a>版权声明</h2><blockquote>
 <p>( ˃ ˄ ˂̥̥ ) 都看到这了，点个 Star 吧 ~</p>
 </blockquote>
-<p><a href="https://designmodo.com/flat-free/" title="Flat UI Free">Flat UI Free</a><br><a href="https://github.com/journey-ad/live2d_src" title="基于 #fea64e4 的修改版">live2d_src &#x2F; ©journey-ad &#x2F; GPL v2.0</a><br><a href="https://imjad.cn/" title="猫与向日葵">waifu-tips.js &#x2F; ©journey-ad &#x2F; CC BY-NC-SA 4.0</a>  </p>
+<p><a href="https://designmodo.com/flat-free/" title="Flat UI Free">Flat UI Free</a><br><a href="https://github.com/journey-ad/live2d_src" title="基于 #fea64e4 的修改版">live2d_src / ©journey-ad / GPL v2.0</a><br><a href="https://imjad.cn/" title="猫与向日葵">waifu-tips.js / ©journey-ad / CC BY-NC-SA 4.0</a>  </p>
 <p>Open sourced under the GPL v2.0 license.</p>

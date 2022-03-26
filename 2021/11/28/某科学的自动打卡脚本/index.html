@@ -460,34 +460,27 @@
 <pre><code>git clone https://github.com/IanSmith123/ucas-covid19 --depth=1
 or
 wget https://github.com/IanSmith123/ucas-covid19/archive/refs/heads/master.zip
-</code></pre>
-<p>解压并进入项目文件夹</p>
+</code></pre><p>解压并进入项目文件夹</p>
 <pre><code>tar -zxvf ucas-covid19-master.zip
 cd /ucas-covid19-master
-</code></pre>
-<p>安装依赖，依赖库为<code>requests</code>和<code>pytz</code></p>
+</code></pre><p>安装依赖，依赖库为<code>requests</code>和<code>pytz</code></p>
 <pre><code>pip3 install -r requirements.txt
-</code></pre>
-<h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><p>在项目文件中输入</p>
+</code></pre><h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><p>在项目文件中输入</p>
 <pre><code>vim sub.py
-</code></pre>
-<h3 id="更改配置文件"><a href="#更改配置文件" class="headerlink" title="更改配置文件"></a><strong>更改配置文件</strong></h3><pre><code># 全局变量，如果使用自己的服务器运行请根据需要修改 -&gt;以下变量&lt;-
+</code></pre><h3 id="更改配置文件"><a href="#更改配置文件" class="headerlink" title="更改配置文件"></a><strong>更改配置文件</strong></h3><pre><code># 全局变量，如果使用自己的服务器运行请根据需要修改 -&gt;以下变量&lt;-
 user = &quot;USERNAME&quot;  # sep 账号
 passwd = r&quot;PASSWORD&quot;  # sep 密码
 api_key = &quot;&quot;  # 可选， server 酱的通知 api key
-</code></pre>
-<h3 id="设置邮件通知"><a href="#设置邮件通知" class="headerlink" title="设置邮件通知"></a>设置邮件通知</h3><pre><code># 可选，如果需要邮件通知，那么修改下面五行 :)
+</code></pre><h3 id="设置邮件通知"><a href="#设置邮件通知" class="headerlink" title="设置邮件通知"></a>设置邮件通知</h3><pre><code># 可选，如果需要邮件通知，那么修改下面五行 :)
 smtp_port = &quot;SMTP_PORT&quot;  #若选用QQ邮箱，此项为465
 smtp_server = &quot;SMTP_SERVER&quot;   #若选用QQ邮箱，此项为smtp.qq.com
 sender_email = &quot;&quot;  #发送邮箱账号
 sender_email_passwd = r&quot;&quot;  #发送邮箱密码
 receiver_email = &quot;&quot;  #接收邮箱账号
-</code></pre>
-<h2 id="定时执行脚本"><a href="#定时执行脚本" class="headerlink" title="定时执行脚本"></a>定时执行脚本</h2><p>修改crontab，设定为每天八点半运行。</p>
+</code></pre><h2 id="定时执行脚本"><a href="#定时执行脚本" class="headerlink" title="定时执行脚本"></a>定时执行脚本</h2><p>修改crontab，设定为每天八点半运行。</p>
 <pre><code>$ crontab -e # 进入crontab的文本模式
 30 8 * * * /usr/bin/python3  /root/ucas-covid19/sub.py &gt;&gt;/tmp/yqfk.log # 在文本最后一行添加,注意修改为实际路径，修改后立即生效。请注意这里使用是python3不是python2
-</code></pre>
-<p>也可自行设置crontab脚本执行时间：</p>
+</code></pre><p>也可自行设置crontab脚本执行时间：</p>
 <pre><code>
 # Example of job definition:
 # .---------------- minute (0 - 59)
@@ -498,7 +491,6 @@ receiver_email = &quot;&quot;  #接收邮箱账号
 # |  |  |  |  |
 # *  *  *  *  * user-name command to be executed
 </code></pre>
-
         </div>
         <!-- .entry-content -->
         <div class="single-reward">
@@ -608,6 +600,11 @@ receiver_email = &quot;&quot;  #接收邮箱账号
   </div><!-- #primary -->
 </div>
 
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
 
 
 
@@ -1033,5 +1030,21 @@ $(document).ready(function() {
 </script>
   <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js"></script> 
   <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/canvas-nest.min.js"></script>   
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 </body>
 </html>

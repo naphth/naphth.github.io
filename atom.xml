@@ -6,10 +6,33 @@
   <link href="http://www.rikka.world/atom.xml" rel="self"/>
   
   <link href="http://www.rikka.world/"/>
-  <updated>2022-03-22T12:22:11.230Z</updated>
+  <updated>2022-03-26T07:16:53.182Z</updated>
   <id>http://www.rikka.world/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://www.rikka.world/2022/03/26/test/"/>
+    <id>http://www.rikka.world/2022/03/26/test/</id>
+    <published>2022-03-26T07:08:27.000Z</published>
+    <updated>2022-03-26T07:16:53.182Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;阿撒旦洒的&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot;&gt;&lt;svg style=&quot;vertical-align: -0.985ex&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;4.653ex&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://www.rikka.world/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>服务器部署jupyter notebook</title>
@@ -42,7 +65,7 @@
     <link href="http://www.rikka.world/2021/11/28/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E8%84%9A%E6%9C%AC/"/>
     <id>http://www.rikka.world/2021/11/28/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E8%84%9A%E6%9C%AC/</id>
     <published>2021-11-27T21:41:05.000Z</published>
-    <updated>2022-03-25T15:12:43.831Z</updated>
+    <updated>2022-03-26T06:28:28.238Z</updated>
     
     
       
@@ -65,7 +88,7 @@
     <link href="http://www.rikka.world/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/"/>
     <id>http://www.rikka.world/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/</id>
     <published>2021-10-23T14:56:56.000Z</published>
-    <updated>2022-03-25T05:55:48.819Z</updated>
+    <updated>2022-03-26T06:54:01.858Z</updated>
     
     
       
@@ -73,7 +96,7 @@
         
         
     <summary type="html">&lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h1&gt;&lt;p&gt;​    射电天文学是什么？回答这个问题之前我想先谈论一下它的‘上位’问题：天文学是什么？研究天文的手段有哪些？&lt;/p&gt;
-&lt;p&gt;&lt;font</summary>
+&lt;font</summary>
         
       
     

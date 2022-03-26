@@ -6,33 +6,10 @@
   <link href="http://www.rikka.world/atom.xml" rel="self"/>
   
   <link href="http://www.rikka.world/"/>
-  <updated>2022-03-26T07:21:51.469Z</updated>
+  <updated>2022-03-22T12:22:11.230Z</updated>
   <id>http://www.rikka.world/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://www.rikka.world/2022/03/26/test/"/>
-    <id>http://www.rikka.world/2022/03/26/test/</id>
-    <published>2022-03-26T07:08:27.000Z</published>
-    <updated>2022-03-26T07:21:51.469Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;阿撒旦洒的&lt;mjx-container class=&quot;MathJax&quot; jax=&quot;SVG&quot;&gt;&lt;svg style=&quot;vertical-align: -0.985ex&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;4.653ex&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术" scheme="http://www.rikka.world/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>服务器部署jupyter notebook</title>
@@ -88,7 +65,7 @@
     <link href="http://www.rikka.world/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/"/>
     <id>http://www.rikka.world/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/</id>
     <published>2021-10-23T14:56:56.000Z</published>
-    <updated>2022-03-26T06:54:01.858Z</updated>
+    <updated>2022-03-26T12:28:17.625Z</updated>
     
     
       

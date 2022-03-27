@@ -413,20 +413,19 @@
   
   <div id="content" class="site-content">
     <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      <script src="https://libs.baidu.com/jquery/3.2.2/jquery.min.js"></script>
+      <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
 
-<body>
-    <script>
-    var img="";
-    var appID="0fpmGPANxva5ahrXlcDqaHnm-MdYXbMMI";
-    var appKEY="gi1EneF6bUX6gFgCEfkaDgH2";
-    var per="10";
-    var username="walnut";
-    </script>
-    <div id="lazy"></div>
-    <div id="artitalk"></div>
-    <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-</body>    
+<pre><code class="lang-html">&lt;div id=&quot;artitalk_main&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+new Artitalk(&#123;
+    appId: &#39;0fpmGPANxva5ahrXlcDqaHnm-MdYXbMMI&#39;, // Your LeanCloud appId
+    appKey: &#39;gi1EneF6bUX6gFgCEfkaDgH2&#39; // Your LeanCloud appKey
+    per: &#39;10&#39;;
+    username: &#39;walnut&#39;;
+&#125;)
+&lt;/script&gt;
+</code></pre>
+
       <!-- .entry-content -->
       
 

@@ -473,8 +473,7 @@ $ pip install PyQt5
 </code></pre><p>手册：<a target="_blank" rel="noopener" href="https://camb.readthedocs.io/en/latest/">https://camb.readthedocs.io/en/latest/</a></p>
 <h2 id="astrometry"><a href="#astrometry" class="headerlink" title="astrometry"></a>astrometry</h2><p>天体测量数据、天图数据相关包</p>
 <p>安装：</p>
-<pre><code>#以下安装在ubuntu系统进行，建议全程sudo或者用su获取权限，不然会出一些问题。
-#安装依赖包
+<pre><code>#安装依赖包，我使用的是ubuntu环境，别的系统请自行参考手册
 $ sudo apt install build-essential curl git file pkg-config swig \
        libcairo2-dev libnetpbm10-dev netpbm libpng-dev libjpeg-dev \
        zlib1g-dev libbz2-dev libcfitsio-dev wcslib-dev \
@@ -484,7 +483,7 @@ $ sudo apt install build-essential curl git file pkg-config swig \
 $ wget http://astrometry.net/downloads/astrometry.net-latest.tar.gz
 $ tar xvzf astrometry.net-latest.tar.gz
 $ cd astrometry.net-*
-#安装
+#安装。ubuntu环境下，以下操作建议全程sudo或者su获取权限
 $ make
 $ make py
 $ make extra

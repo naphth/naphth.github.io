@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">R_Astro | milkomeda</title>
+  <title itemprop="name">恒星结构-名词解释 | milkomeda</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -413,30 +413,6 @@
 <link rel="stylesheet" href="https://cdn.bootcss.com/tocbot/4.10.1/tocbot.css">
 <div class="pattern-center-blank"></div>
 
-  <div class="pattern-center single-center">
-    <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://p0.meituan.net/dpgroup/65305069d35e742a1df0d0c9fded1df9653821.png);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://p0.meituan.net/dpgroup/65305069d35e742a1df0d0c9fded1df9653821.png">
-    </div>
-    <header class="pattern-header single-header">
-      <h1 class="entry-title">
-      R_Astro</h1>
-      <p class="entry-census">
-        <span>
-          <a href="">
-            <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.14/img/avatar.jpg">
-          </a>
-        </span>
-        <span>
-          <a href="">walnut</a>
-        </span>
-        <span class="bull">
-        ·</span>
-        2022-3-26<span class="bull">
-        ·</span>
-      <span id="busuanzi_value_page_pv"></span>次阅读</p>
-    </header>
-  </div>
-
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
@@ -444,47 +420,22 @@
         <div class="toc"></div>
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
+          <header class="entry-header">
+            <h1 class="entry-title">恒星结构-名词解释</h1>
+            <p class="entry-census">walnut&nbsp;·&nbsp;2022-3-29&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
         <div class="entry-content">
-          <h1 id="基础库（主要的支持库）："><a href="#基础库（主要的支持库）：" class="headerlink" title="基础库（主要的支持库）："></a>基础库（主要的支持库）：</h1><p>numpy, matplotlib, ipython, scipy, pandas, seaborn</p>
-<h1 id="天文-amp-射电天文库："><a href="#天文-amp-射电天文库：" class="headerlink" title="天文&amp;射电天文库："></a>天文&amp;射电天文库：</h1><h2 id="astropy"><a href="#astropy" class="headerlink" title="astropy"></a>astropy</h2><pre><code>$ pip install astropy
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://docs.astropy.org/en/stable/">https://docs.astropy.org/en/stable/</a> </p>
-<h2 id="spectral-cube"><a href="#spectral-cube" class="headerlink" title="spectral-cube"></a>spectral-cube</h2><p>三维（两个位置维度和一个光谱维度）天文数据处理</p>
-<pre><code>$ pip install spectral-cube
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://spectral-cube.readthedocs.io/en/latest/">https://spectral-cube.readthedocs.io/en/latest/</a> </p>
-<h2 id="mayavi"><a href="#mayavi" class="headerlink" title="mayavi"></a>mayavi</h2><p>3D 数据/3D 绘图</p>
-<pre><code>$ pip install mayavi
-$ pip install PyQt5
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://docs.enthought.com/mayavi/mayavi/index.html">https://docs.enthought.com/mayavi/mayavi/index.html</a></p>
-<h2 id="healpy"><a href="#healpy" class="headerlink" title="healpy"></a>healpy</h2><p>天图数据处理常用包</p>
-<pre><code>$ pip install healpy
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://healpy.readthedocs.io/en/latest/tutorial.html">https://healpy.readthedocs.io/en/latest/tutorial.html</a></p>
-<h2 id="astroML"><a href="#astroML" class="headerlink" title="astroML"></a>astroML</h2><p>天文&amp;天体物理数据挖掘、机器学习库</p>
-<pre><code>$ pip install astroML
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://www.astroml.org/">https://www.astroml.org/</a></p>
-<h2 id="pycamb"><a href="#pycamb" class="headerlink" title="pycamb"></a>pycamb</h2><p>宇宙学代码，计算 CMB、透镜、星系计数、暗年龄 21cm 功率谱、物质功率谱和传递函数</p>
-<pre><code>pip install camb
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://camb.readthedocs.io/en/latest/">https://camb.readthedocs.io/en/latest/</a></p>
-<h2 id="astrometry"><a href="#astrometry" class="headerlink" title="astrometry"></a>astrometry</h2><p>天体测量数据、天图数据相关包</p>
-<p>安装：</p>
-<pre><code>#安装依赖包，我使用的是ubuntu环境，别的系统请自行参考手册
-$ sudo apt install build-essential curl git file pkg-config swig \
-       libcairo2-dev libnetpbm10-dev netpbm libpng-dev libjpeg-dev \
-       zlib1g-dev libbz2-dev libcfitsio-dev wcslib-dev \
-       python3 python3-pip python3-distutils python3-dev \
-       python3-numpy python3-scipy python3-pil
-#获取代码
-$ wget http://astrometry.net/downloads/astrometry.net-latest.tar.gz
-$ tar xvzf astrometry.net-latest.tar.gz
-$ cd astrometry.net-*
-#安装。ubuntu环境下，以下操作建议全程sudo或者su获取权限
-$ make
-$ make py
-$ make extra
-$ make install  # to put it in /usr/local/astrometry
-# or:
-$ make install INSTALL_DIR=/some/other/place
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://nova.astrometry.net/">https://nova.astrometry.net/</a></p>
-<p><a target="_blank" rel="noopener" href="http://astrometry.net/doc/readme.html#">http://astrometry.net/doc/readme.html#</a></p>
+          <h1 id="恒星结构-名词解释"><a href="#恒星结构-名词解释" class="headerlink" title="恒星结构-名词解释"></a>恒星结构-名词解释</h1><p>结合恒星内部结构的课件观看</p>
+<h2 id="Volume1"><a href="#Volume1" class="headerlink" title="Volume1"></a>Volume1</h2><h3 id="chap1"><a href="#chap1" class="headerlink" title="chap1"></a>chap1</h3><p><strong>进动( procession ):</strong>一个自转的物体受外力作用导致其自 转轴 绕某一中心与自转方向相同的旋转</p>
+<h3 id="chap2"><a href="#chap2" class="headerlink" title="chap2"></a>chap2</h3><p><strong>自行( proper motion ):</strong>恒星于一年内所行经的距离对观测者所张的⻆度 ( 横向运动 )</p>
+<h3 id="chap3"><a href="#chap3" class="headerlink" title="chap3"></a>chap3</h3><p><strong>三⻆视差( trigonometric parallaxes ):</strong>恒星对日地平均距离的张⻆叫做恒星的三⻆视差</p>
+<h3 id="chap4"><a href="#chap4" class="headerlink" title="chap4"></a>chap4</h3><p><strong>大气质量( air mass ):</strong>实际上的 τ λs /τ λt<br><strong>黑体( black body ):</strong>一个理想化的物体,能够吸收外来的全部电磁辐射,并且不会有任何的反射与投射,辐射仅与温度有关<br><strong>热动平衡 / 热力学平衡( thermodynamic equilibrium ):</strong>当系统处于平衡状态时,其宏观物理性质是不随时间变化的,但从微观方面来看,组成系统的 粒子 却处于永不停息的热运动之中。<br><strong>斯特藩 - 玻尔兹曼定律( Stefan-Boltzmann law ):</strong> E = σT 4 = πF<br><strong>维恩位移定律( Wien’s displacement law ):</strong>在一定温度下,绝对黑体的温度与辐射本领最大值相对应的峰值波⻓ λ 的乘积为一常数。当绝对黑体的温度升高时,辐射本领的最大值向短波方向移动。<br><strong>太阳常数( solar constant ):</strong>地球大气每秒每平方厘米能接收到的太阳辐射量<br><strong>绝对星等( absolute magnitude ):</strong>恒星在 10pc 距离处的视星等</p>
+<h3 id="chap5"><a href="#chap5" class="headerlink" title="chap5"></a>chap5</h3><p><strong>主序( main sequence ):</strong>颜色星等图中,大多数恒星所落在的一条线<br><strong>巨星( giant ):</strong>比主序更亮的星<br><strong>矮星( dwarf ):</strong>巨星之外的星,主序和比主序更暗的星<br><strong>疏散星团( open cluster ):</strong>由数百颗至上千颗由较弱引力联系的恒星所组成的天体<br><strong>球状星团:</strong>由成千上万甚至数十万颗恒星组成,外貌呈球形,越往中心恒星越密集<br>chap6<br><strong>热星等( bolometric magnitude ):</strong>表征天体在整个辐射波段内辐射总量的星等<br>chap7<br><strong>视宁度( seeing ):</strong>望远镜显示图像的清晰度chap8<br><strong>有效温度( effective temperature ):</strong>释放相同总电磁辐射量的黑体的温度<br>chap9<br><strong>多普勒效应( Doppler effect ):</strong>物体辐射的波⻓因为波源和观测者的相对运动而产生变化。在运动的波源前面,波⻓变短,频率变高(蓝移 blue shi );在运动的波源后面,波⻓变⻓,频率变低(红移 red shi )<br><strong>夫琅和费线( Fraunhofer line ):</strong>太阳光谱中的吸收线<br><strong>高分辨率光谱( high resolution spectra ):</strong>可以在很窄的波⻓带中观测到恒星能量分布的光谱<br><strong>分光双星( spectroscopic binary star ):</strong>通过对某天体谱线位置变化的观测分析,能判断出的双星<br><strong>质光关系( The mass-luminosity relation ):</strong>愈大质量的恒星,发光能力也愈高。光度与质量的 α 次幂成正比, α 在 3.5 ~ 4 之间。<br>chap10<br><strong>光谱序( spectral sequence ):</strong>将恒星依光谱类型 (O, B, A, F, G, K, M) 由高温到低温排序<br>chap12<br><strong>紫外超( ultraviolet excess ):</strong>天体的紫外辐射大于相同光谱型天体的正常紫外辐射的现象<br>chap14<br><strong>塞曼效应( Zeeman effect ):</strong>原子在外磁场中发光谱线发生分裂且偏振的现象<br>chap15<br><strong>压力标高( scale height ):</strong>表征恒星气压随着高度增加而减小的量,高度每升高一个 “ 标高 ”H ,气压就减小为原来的 e 分之一<br><strong>爱丁顿流( Eddington current ):</strong>快速自转恒星产生的缓慢物质流。在极区自下而上,在赤道区域自上而下。<br><strong>P Cygni 轮廓:</strong>由于恒星膨胀,正对观测者的部分产生的吸收线蓝移,而恒星边缘的发射线没有多普勒运动,导致出现蓝端吸收、红端发射的谱线轮廓。<br>chap16<br><strong>脉动变星( pulsating star ):</strong>由脉动引起亮度变化的恒星<br><strong>周光关系( period-luminosity relation ):</strong>造父变星具有的光变周期和绝对星等之间的关系<br>chap17<br><strong>回光 / 光回声( light echo ):</strong>超新星爆发后被周围尘埃云反射到接收者的光<br><strong>拉格朗日点( Lagrange point ):</strong>又称平动点,在天体力学中是限制性三体问题的五个特解<br><strong>洛希瓣( Roche lobe ):</strong>包围在天体周围的临界等位面,在这个临界面范围内的物质会受到该天体的引力约束而在轨道上环绕</p>
+<p>洛希极限( Roche limit ):双星系统中,如果仅考虑行星对卫星的潮汐,当卫星接近行星到某个极限距离,作用于卫星的起潮力于卫星自引力,卫星便不能维持其整体而被起潮力撕裂。潮汐作用是相互的,一对相互作用的行星和卫星, 卫星在行星上引发汐作用的同时行星也在卫星上 引发潮汐作用。当两者相互接近时 , 潮汐作用增强。如果仅考虑行星对卫星的潮汐,当卫星接近行星到某个极限距离,作用于卫星的起潮力大于卫星自引力,卫星便不能维持其整体而被起潮力撕裂。<br>chap18<br>太阳米粒组织( solar granulation ):太阳光球层上的一种日面结构。呈多⻆形小颗粒形状,得用望远镜才能观测到<br>闪光光谱( flash spectrum ):在⻝既与生光发生的几秒内才能观测到的光谱<br>过渡区( transition zone ):从色球层到冕层之间的区域(对太阳而言,温度在30000K- 10 6 K )<br>日冕洞( corona hole ):日冕中进行软 X 射线辐射的区域<br>较差自转( differential rotation ):一个天体在自转时不同部位的⻆速度互不相同的现象<br>chap19<br>星际红化( interstellar reddening ):星光通过星际空间而变红的现象。星际介质在蓝端消光多,红端消光少,看上去偏红。<br>色余( color excess ):观测所得的大气外天体色指数与无星际消光时该天体的真实色指数之差<br>Volume2<br>chap4<br>基尔霍夫定律( law of Kirchhoff ):完全热动平衡下,源函数等于普朗克函数<br>chap5<br>临边昏暗( limb darking ):太阳圆面各处的亮度不均匀。圆面中心亮度最大,越向边缘亮度越小,边缘区域亮度只有中心区域的 40% 左右。这种从日面中心向日面边缘逐渐变暗的现象称为临边昏暗规律。<br>chap6<br>热平衡( thermal equilibrium ):温度不随时间变化。<br>辐射平衡( radiative equilibrium ):天体辐射流量不随时间变化,不会加热或冷却。<br>灰大气( grey atmosphere ):连续吸收系数与波⻓ / 频率无关的大气。<br>chap7<br>玻尔兹曼方程( Boltzmann formula ):描述同一电离态不同能级间的粒子数布居。<br>萨哈方程( the Saha equation ):描述相邻电离态粒子数布居。<br>chap8爱丁顿 - 巴⻉尔关系( Eddington-Barbier relation ):辐射流量等于光深为 2 3 处的源函数的值<br>巴尔末跳变 / 巴尔末跳跃( Balmer jump ):由氢原子的束缚 - 自由跃迁造成的光谱中巴尔末系限两边的强度突变<br>表层降温效应( surface cooling effect ):在非灰大气中,吸收系数 κ λ 大,几何深度 t 小,观测到更接近表层,温度更低<br>底部升温效应( backwarming effect ):在非灰大气假设下,大量强线会影响连续谱。谱线形成层 κ λ 大,则辐射的能量小,观测到的能量就更多来自谱线形成层底部更深层的辐射,温度更高<br>chap10<br>线深( line depth ):谱线处减少的流量与背景流量的比值<br>等值宽度( equivalent width ):与吸收(或发射)谱线轮廓和连续谱之间所包围的面积相当的高度为 1 的矩形的宽度<br>辐射 / 自然阻尼致宽( radiative/natural damping broadening ):粒子本身会辐<br>射。根据不确定性原理 ΔE ⋅ Δt = ħ ,能级平均寿命越⻓,能级宽度越小,相<br>应的谱线具有一定宽度,这与波⻓本身无关<br>多普勒致宽( Doppler broadening ):粒子的热运动服从⻨克斯⻙速度分布,由多普勒效应使谱线加宽<br>半峰半宽( half width at half maximum ):吸收谱带高度为最大处高度一半时谱带的半宽<br>湍动致宽( turbulent broadening ):为了让理论与观测谱一致需要假设有微观湍流存在,与热运动致宽效果相同<br>生⻓曲线( the curve of growth ):等值宽度 W λ 与产生该谱线的低能级原子或离子数目之间的关系<br>chap11<br>斯塔克效应( Stark effect ):由于外加电场出现的谱线移动和分裂现象<br>压力致宽( impact broadening ):由于吸收原子(或离子)受到原子、离子、电子分子的弹性碰撞导致的能量变化,使谱线加宽<br>chap12<br>多重线 / 多重态( multiplet ):两个精细结构能级之间的所有跃迁<br>chap13<br>局部热动平衡( local thermodynamic balance ):在恒星大气的局部区域,引入局部温度表征其状态,局部温度不变,且粒子速度满足⻨克斯⻙速度分布、粒子数布居满足玻尔兹曼方程和萨哈方程<br>细致平衡( detailed balance ):在热动平衡中,对每个跃迁过程都要有相同数目的双向跃迁<br>chap14<br>对流( convection ):流体内部由于各部分温度不同而造成的相对流动热容( heat capacity ):百科(精确):当一系统由于加给一微小的热量 dQ 而温度升高 dT 时, dQ/dT 这个量即是该系统的热容;姜老师(简单理解):每 mol 物质温度升高 1K 需要吸收的热量<br>混合程 / 混合⻓( mixing length ):百科:大气湍流场中,流体微团运动一段距离后仍保留原有特性而不与周围介质混合的⻓度;杜老师:从对流元产生到与周围环境混合在一起运动的距离<br>chap16<br>爱丁顿极限( Eddington limit ):天体的光度极限,超过此光度恒星就会由于辐射力大于引力而逐渐瓦解<br>Volume3<br>chap2<br>维里定理( Virial theorem ):热能等于负的引力能的一半( E thermal = − 1 2 E G)<br>开尔文 - 亥姆霍兹时标( Kelvin-Helmholtz time ):主序前,恒星引力收缩的时间<br>chap6<br>对流超射( convective overshoot ):对流元到达对流区顶部时还有向上的速度和正温差带来的加速度,要继续向上运动,到对流稳定区中速度减为 0 ,向下同理。<br>chap7<br>隧穿效应( tunnel effect ):电子等微观粒子能够穿入或穿越位势垒的量子行为,尽管位势垒的高度大于粒子的总能量<br>伽莫夫峰( Gamow peak ):原子核燃烧(反应)的最有效能区<br>chap9<br>克雷默不透明度定律( Kramers’ opacity law ):质量吸收系数 κ g = κ 0 ρT −3/5,其中 κ 0 与金属丰度有关<br>同系星( homologous star ):质量、温度、压强、能量的无量纲量对半径无量纲量有着相同依赖关系的恒星<br>chap11<br>完全对流恒星( whole convective star ):只有对流没有辐射的恒星,一般在主序之前出现<br>林忠四郎线( Hayashi line ):完全对流恒星在赫罗图上的演化轨迹,理论上不会有比其温度更低的恒星。<br>chap13<br>零龄主序( zero age main-sequence ,缩写 ZAMS ):当恒星开始核心 H 燃烧并达到流体静力学平衡时, 在赫罗图上的位置(主序带的最左侧)<br>爱丁顿 - 斯威特循环( Eddington-Sweet circulation ):大质量恒星由于快速自转造成的扭曲变形。<br>chap14</p>
+<p>赫兹普⻰空隙 / 赫氏空隙( Hertzsprung gap ):小质量恒星脱离主序进入亚巨星支,核心 He 丰度增大一点会引起壳层大幅扩张,有效温度降低。整个过程很快,只发现了很少的星处在此区域,所以称为空隙。<br>挖掘 / 掘取( dredge up ):恒星演化至红巨星阶段,对流区向恒星内部延伸,将主序期间氢燃烧的产物带到恒星表层<br>氦闪( helium flash ):红巨星支顶端,氦核内部电子完全简并,氦核发生爆发性燃烧,核心温度快速上升,核心简并解除,开始平稳氦燃烧过程。<br>团簇星( clump stars ):由于演化过程缓慢而在赫罗图上形成积聚的恒星<br>chap15<br>蓝回绕( blue loop excursions ):大质量氦核大于 0.47 M ⊙ 时,核心膨胀,核心温度降低,包层收缩,有效温度上升,在赫罗图上恒星向蓝端移动;核心消耗氦产生碳,粒子数密度降低,核心收缩,核心温度升高,包层膨胀,有效温度降低,在赫罗图上恒星向红端移动。<br>碳闪( carbon flash ):氦燃烧结束后,核心粒子数密度足够高,核心电子完全简并, 12 C 爆发性燃烧,核心温度上升,简并解除,开始平稳碳燃烧。<br>chap16<br>钱德拉塞卡极限( Chandrasekhar limit ):无自转恒星以电子简并压力阻挡引力坍缩所能承受的最大质量,即白矮星的最高质量,约为 1.4 M ⊙</p>
 
         </div>
         <!-- .entry-content -->
@@ -513,36 +464,19 @@ $ make install INSTALL_DIR=/some/other/place
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
+        
           
-            <div class="post-nepre half previous">
+            <div class="post-nepre full next">
           
-            <a href="/2022/03/28/n%E6%AC%A1%E8%AF%AF%E5%B7%AE/" rel="prev">
+            <a href="/2022/03/28/n%E6%AC%A1%E8%AF%AF%E5%B7%AE/" rel="next">
               <div class="background">
                 <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                n次误差</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
-        
-          
-            <div class="post-nepre half next">
-          
-            <a href="/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/" rel="next">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://p0.meituan.net/dpgroup/8b25e72757bdae2e1ac5f3f8b0cebebe482459.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://p0.meituan.net/dpgroup/8b25e72757bdae2e1ac5f3f8b0cebebe482459.jpg">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                服务器部署jupyter notebook</h3>
+                n次误差</h3>
                 <hr>
               </div>
             </a>

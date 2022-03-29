@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">R_Astro | milkomeda</title>
+  <title itemprop="name">n次误差 | milkomeda</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -413,30 +413,6 @@
 <link rel="stylesheet" href="https://cdn.bootcss.com/tocbot/4.10.1/tocbot.css">
 <div class="pattern-center-blank"></div>
 
-  <div class="pattern-center single-center">
-    <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://p0.meituan.net/dpgroup/65305069d35e742a1df0d0c9fded1df9653821.png);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://p0.meituan.net/dpgroup/65305069d35e742a1df0d0c9fded1df9653821.png">
-    </div>
-    <header class="pattern-header single-header">
-      <h1 class="entry-title">
-      R_Astro</h1>
-      <p class="entry-census">
-        <span>
-          <a href="">
-            <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.14/img/avatar.jpg">
-          </a>
-        </span>
-        <span>
-          <a href="">walnut</a>
-        </span>
-        <span class="bull">
-        ·</span>
-        2022-3-26<span class="bull">
-        ·</span>
-      <span id="busuanzi_value_page_pv"></span>次阅读</p>
-    </header>
-  </div>
-
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
@@ -444,47 +420,23 @@
         <div class="toc"></div>
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
+          <header class="entry-header">
+            <h1 class="entry-title">n次误差</h1>
+            <p class="entry-census">walnut&nbsp;·&nbsp;2022-3-28&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
         <div class="entry-content">
-          <h1 id="基础库（主要的支持库）："><a href="#基础库（主要的支持库）：" class="headerlink" title="基础库（主要的支持库）："></a>基础库（主要的支持库）：</h1><p>numpy, matplotlib, ipython, scipy, pandas, seaborn</p>
-<h1 id="天文-amp-射电天文库："><a href="#天文-amp-射电天文库：" class="headerlink" title="天文&amp;射电天文库："></a>天文&amp;射电天文库：</h1><h2 id="astropy"><a href="#astropy" class="headerlink" title="astropy"></a>astropy</h2><pre><code>$ pip install astropy
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://docs.astropy.org/en/stable/">https://docs.astropy.org/en/stable/</a> </p>
-<h2 id="spectral-cube"><a href="#spectral-cube" class="headerlink" title="spectral-cube"></a>spectral-cube</h2><p>三维（两个位置维度和一个光谱维度）天文数据处理</p>
-<pre><code>$ pip install spectral-cube
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://spectral-cube.readthedocs.io/en/latest/">https://spectral-cube.readthedocs.io/en/latest/</a> </p>
-<h2 id="mayavi"><a href="#mayavi" class="headerlink" title="mayavi"></a>mayavi</h2><p>3D 数据/3D 绘图</p>
-<pre><code>$ pip install mayavi
-$ pip install PyQt5
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://docs.enthought.com/mayavi/mayavi/index.html">https://docs.enthought.com/mayavi/mayavi/index.html</a></p>
-<h2 id="healpy"><a href="#healpy" class="headerlink" title="healpy"></a>healpy</h2><p>天图数据处理常用包</p>
-<pre><code>$ pip install healpy
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://healpy.readthedocs.io/en/latest/tutorial.html">https://healpy.readthedocs.io/en/latest/tutorial.html</a></p>
-<h2 id="astroML"><a href="#astroML" class="headerlink" title="astroML"></a>astroML</h2><p>天文&amp;天体物理数据挖掘、机器学习库</p>
-<pre><code>$ pip install astroML
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://www.astroml.org/">https://www.astroml.org/</a></p>
-<h2 id="pycamb"><a href="#pycamb" class="headerlink" title="pycamb"></a>pycamb</h2><p>宇宙学代码，计算 CMB、透镜、星系计数、暗年龄 21cm 功率谱、物质功率谱和传递函数</p>
-<pre><code>pip install camb
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://camb.readthedocs.io/en/latest/">https://camb.readthedocs.io/en/latest/</a></p>
-<h2 id="astrometry"><a href="#astrometry" class="headerlink" title="astrometry"></a>astrometry</h2><p>天体测量数据、天图数据相关包</p>
-<p>安装：</p>
-<pre><code>#安装依赖包，我使用的是ubuntu环境，别的系统请自行参考手册
-$ sudo apt install build-essential curl git file pkg-config swig \
-       libcairo2-dev libnetpbm10-dev netpbm libpng-dev libjpeg-dev \
-       zlib1g-dev libbz2-dev libcfitsio-dev wcslib-dev \
-       python3 python3-pip python3-distutils python3-dev \
-       python3-numpy python3-scipy python3-pil
-#获取代码
-$ wget http://astrometry.net/downloads/astrometry.net-latest.tar.gz
-$ tar xvzf astrometry.net-latest.tar.gz
-$ cd astrometry.net-*
-#安装。ubuntu环境下，以下操作建议全程sudo或者su获取权限
-$ make
-$ make py
-$ make extra
-$ make install  # to put it in /usr/local/astrometry
-# or:
-$ make install INSTALL_DIR=/some/other/place
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://nova.astrometry.net/">https://nova.astrometry.net/</a></p>
-<p><a target="_blank" rel="noopener" href="http://astrometry.net/doc/readme.html#">http://astrometry.net/doc/readme.html#</a></p>
+          <h1 id="问题介绍"><a href="#问题介绍" class="headerlink" title="问题介绍"></a>问题介绍</h1><p>​        用随机数列说明，在求均值时，n次测量误差是其本身误差的$\frac{1}{\sqrt{n}}$倍。</p>
+<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>​        由随机变量<u>均值的方差</u>与<u>方差的平均值</u>的关系：</p>
+<script type="math/tex; mode=display">
+\sigma^2(\bar{x})=\sigma^2(\frac{1}{n}\sum x_i)=\frac{1}{n^2}\sigma^2(\sum x_i)=\frac{1}{n^2}\sum\sigma^2(x_i)=\frac{1}{n}\sigma^2(x)</script><p>即可得：</p>
+<script type="math/tex; mode=display">
+\sigma(\bar{x})=\frac{1}{\sqrt{n}}\sigma(x)</script><p>得出<strong>n次测量误差是其本身误差的$\frac{1}{\sqrt{n}}$倍</strong>的理论依据。        </p>
+<p>​        根据中心极限定理，只要观测值存在着有限的期望值和方差，多次测量的平均值$\bar{x}$都近似服从正态分布。而在实际观测中，测量值总是有限的，所以期望值和方差总是有限的，只要测量次数足够多（$x\rightarrow\infty$时），样本均值$\bar{x}$渐近服从正态分布$N(\bar{x}|\mu,\frac{\sigma^2}{n})$，所以<strong>只需分析服从正态分布随机序列的情况</strong>：</p>
+<p>​        对于任意一个期望值为$\mu$的正态分布随机序$k_i$~$N(\mu,\sigma^2)$，其误差的平均值为$a=\sum\frac{k_i-\mu}{n}$，标准差为：$s_1=\frac{|k_i-\mu|}{\sqrt{n-1}}$。若n次测量的误差是其本身误差的$\frac{1}{\sqrt{n}}$倍。</p>
+<p><img src="/home/constantine/桌面/下载.png"></p>
 
         </div>
         <!-- .entry-content -->
@@ -516,7 +468,7 @@ $ make install INSTALL_DIR=/some/other/place
           
             <div class="post-nepre half previous">
           
-            <a href="/2022/03/28/n%E6%AC%A1%E8%AF%AF%E5%B7%AE/" rel="prev">
+            <a href="/2022/03/29/%E6%81%92%E6%98%9F%E7%BB%93%E6%9E%84-%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/" rel="prev">
               <div class="background">
                 <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
               </div>
@@ -524,7 +476,7 @@ $ make install INSTALL_DIR=/some/other/place
               Previous Post</span>
               <div class="info">
                 <h3>
-                n次误差</h3>
+                恒星结构-名词解释</h3>
                 <hr>
               </div>
             </a>
@@ -534,15 +486,15 @@ $ make install INSTALL_DIR=/some/other/place
           
             <div class="post-nepre half next">
           
-            <a href="/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/" rel="next">
+            <a href="/2022/03/26/astro-python/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://p0.meituan.net/dpgroup/8b25e72757bdae2e1ac5f3f8b0cebebe482459.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://p0.meituan.net/dpgroup/8b25e72757bdae2e1ac5f3f8b0cebebe482459.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://p0.meituan.net/dpgroup/65305069d35e742a1df0d0c9fded1df9653821.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://p0.meituan.net/dpgroup/65305069d35e742a1df0d0c9fded1df9653821.png">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                服务器部署jupyter notebook</h3>
+                R_Astro</h3>
                 <hr>
               </div>
             </a>

@@ -53,7 +53,7 @@
   /*End of Initial Variables*/
   </script>
   <script type="text/javascript">
-  var bg = "https://p1.meituan.net/dpgroup/5f7dc0e6521e89a80823d83b6b5a175d1371523.jpg,https://p0.meituan.net/dpgroup/df34ef0856f3d323d914291d8d56da142695750.jpg,https://p0.meituan.net/dpgroup/6e1ad07ed1c3be36cd712cf989bafb2b3676373.jpg".split(",");
+  var bg = "https://cdn.jsdelivr.net/gh/naphth/ImgHosting/8A214D7A9225E05852113C195618B6EF.png,https://cdn.jsdelivr.net/gh/naphth/ImgHosting/8A214D7A9225E05852113C195618B6EF.png,https://cdn.jsdelivr.net/gh/naphth/ImgHosting/8A214D7A9225E05852113C195618B6EF.png,https://cdn.jsdelivr.net/gh/naphth/ImgHosting/8A214D7A9225E05852113C195618B6EF.png".split(",");
   var bgindex = Math.floor(Math.random()*bg.length);
   if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
     alert('朋友，IE浏览器未适配哦~');
@@ -434,7 +434,7 @@
 \sigma^2(\bar{x})=\sigma^2(\frac{1}{n}\sum x_i)=\frac{1}{n^2}\sigma^2(\sum x_i)=\frac{1}{n^2}\sum\sigma^2(x_i)=\frac{1}{n}\sigma^2(x)</script><p>即可得：</p>
 <script type="math/tex; mode=display">
 \sigma(\bar{x})=\frac{1}{\sqrt{n}}\sigma(x)</script><p>得出<strong>n次测量误差是其本身误差的$\frac{1}{\sqrt{n}}$倍</strong>的理论依据。        </p>
-<p>​        根据中心极限定理，只要观测值存在着有限的期望值和方差，多次测量的平均值$\bar{x}$都近似服从正态分布。而在实际观测中，测量值总是有限的，所以期望值和方差总是有限的，只要测量次数足够多（$x\rightarrow\infty$时），样本均值$\bar{x}$渐近服从正态分布$N(\bar{x}|\mu,\frac{\sigma^2}{n})$，所以<strong>只需分析服从正态分布随机序列的情况</strong>：</p>
+<p>​        根据中心极限定理，只要观测值存在着有限的期望值和方差，多次测量的平均值$\bar{x}$都近似服从正态分布。而在实际观测中，测量值总是有限的，所以期望值和方差总是有限的，只要测量次数足够多（$x\rightarrow\infty$时），样本均值$\bar{x}$渐近服从正态分布$N(\bar{x}|\mu,\frac{\sigma^2}{n})$，所以只需分析服从正态分布随机序列的情况：</p>
 <p>​        对于任意一个期望值为$\mu$的正态分布随机序$k_i$~$N(\mu,\sigma^2)$，其误差的平均值为$a=\sum\frac{k_i-\mu}{n}$，标准差为：$s_1=\frac{|k_i-\mu|}{\sqrt{n-1}}$。若n次测量的误差是其本身误差的$\frac{1}{\sqrt{n}}$倍。</p>
 <p><img src="/home/constantine/桌面/下载.png"></p>
 

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">R_Astro | milkomeda</title>
+  <title itemprop="name">coma星团弥散速度 | milkomeda</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -413,30 +413,6 @@
 <link rel="stylesheet" href="https://cdn.bootcss.com/tocbot/4.10.1/tocbot.css">
 <div class="pattern-center-blank"></div>
 
-  <div class="pattern-center single-center">
-    <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://p0.meituan.net/dpgroup/65305069d35e742a1df0d0c9fded1df9653821.png);" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://p0.meituan.net/dpgroup/65305069d35e742a1df0d0c9fded1df9653821.png">
-    </div>
-    <header class="pattern-header single-header">
-      <h1 class="entry-title">
-      R_Astro</h1>
-      <p class="entry-census">
-        <span>
-          <a href="">
-            <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.14/img/avatar.jpg">
-          </a>
-        </span>
-        <span>
-          <a href="">walnut</a>
-        </span>
-        <span class="bull">
-        ·</span>
-        2022-3-26<span class="bull">
-        ·</span>
-      <span id="busuanzi_value_page_pv"></span>次阅读</p>
-    </header>
-  </div>
-
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
@@ -444,47 +420,59 @@
         <div class="toc"></div>
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
+          <header class="entry-header">
+            <h1 class="entry-title">coma星团弥散速度</h1>
+            <p class="entry-census">walnut&nbsp;·&nbsp;2022-4-4&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
         <div class="entry-content">
-          <h1 id="基础库（主要的支持库）："><a href="#基础库（主要的支持库）：" class="headerlink" title="基础库（主要的支持库）："></a>基础库（主要的支持库）：</h1><p>numpy, matplotlib, ipython, scipy, pandas, seaborn</p>
-<h1 id="天文-amp-射电天文库："><a href="#天文-amp-射电天文库：" class="headerlink" title="天文&amp;射电天文库："></a>天文&amp;射电天文库：</h1><h2 id="astropy"><a href="#astropy" class="headerlink" title="astropy"></a>astropy</h2><pre><code>$ pip install astropy
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://docs.astropy.org/en/stable/">https://docs.astropy.org/en/stable/</a> </p>
-<h2 id="spectral-cube"><a href="#spectral-cube" class="headerlink" title="spectral-cube"></a>spectral-cube</h2><p>三维（两个位置维度和一个光谱维度）天文数据处理</p>
-<pre><code>$ pip install spectral-cube
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://spectral-cube.readthedocs.io/en/latest/">https://spectral-cube.readthedocs.io/en/latest/</a> </p>
-<h2 id="mayavi"><a href="#mayavi" class="headerlink" title="mayavi"></a>mayavi</h2><p>3D 数据/3D 绘图</p>
-<pre><code>$ pip install mayavi
-$ pip install PyQt5
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://docs.enthought.com/mayavi/mayavi/index.html">https://docs.enthought.com/mayavi/mayavi/index.html</a></p>
-<h2 id="healpy"><a href="#healpy" class="headerlink" title="healpy"></a>healpy</h2><p>天图数据处理常用包</p>
-<pre><code>$ pip install healpy
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://healpy.readthedocs.io/en/latest/tutorial.html">https://healpy.readthedocs.io/en/latest/tutorial.html</a></p>
-<h2 id="astroML"><a href="#astroML" class="headerlink" title="astroML"></a>astroML</h2><p>天文&amp;天体物理数据挖掘、机器学习库</p>
-<pre><code>$ pip install astroML
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://www.astroml.org/">https://www.astroml.org/</a></p>
-<h2 id="pycamb"><a href="#pycamb" class="headerlink" title="pycamb"></a>pycamb</h2><p>宇宙学代码，计算 CMB、透镜、星系计数、暗年龄 21cm 功率谱、物质功率谱和传递函数</p>
-<pre><code>pip install camb
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://camb.readthedocs.io/en/latest/">https://camb.readthedocs.io/en/latest/</a></p>
-<h2 id="astrometry"><a href="#astrometry" class="headerlink" title="astrometry"></a>astrometry</h2><p>天体测量数据、天图数据相关包</p>
-<p>安装：</p>
-<pre><code>#安装依赖包，我使用的是ubuntu环境，别的系统请自行参考手册
-$ sudo apt install build-essential curl git file pkg-config swig \
-       libcairo2-dev libnetpbm10-dev netpbm libpng-dev libjpeg-dev \
-       zlib1g-dev libbz2-dev libcfitsio-dev wcslib-dev \
-       python3 python3-pip python3-distutils python3-dev \
-       python3-numpy python3-scipy python3-pil
-#获取代码
-$ wget http://astrometry.net/downloads/astrometry.net-latest.tar.gz
-$ tar xvzf astrometry.net-latest.tar.gz
-$ cd astrometry.net-*
-#安装。ubuntu环境下，以下操作建议全程sudo或者su获取权限
-$ make
-$ make py
-$ make extra
-$ make install  # to put it in /usr/local/astrometry
-# or:
-$ make install INSTALL_DIR=/some/other/place
-</code></pre><p>手册：<a target="_blank" rel="noopener" href="https://nova.astrometry.net/">https://nova.astrometry.net/</a></p>
-<p><a target="_blank" rel="noopener" href="http://astrometry.net/doc/readme.html#">http://astrometry.net/doc/readme.html#</a></p>
+          <h1 id="关于速度弥散"><a href="#关于速度弥散" class="headerlink" title="关于速度弥散"></a>关于速度弥散</h1><p>速度弥散度的定义（velocity dispersion）：弥散度是指随机变量方差的平方根，即均方差或标准差。在天文学中﹐速度弥散度通常是指恒星系统中剩余速度的弥散度。下面例举一些天文学中速度弥散的用途。</p>
+<h2 id="速度弥散和恒星年龄"><a href="#速度弥散和恒星年龄" class="headerlink" title="速度弥散和恒星年龄"></a>速度弥散和恒星年龄</h2><p><img src="https://cdn.jsdelivr.net/gh/naphth/ImgHosting/sendpix0.jpg" alt=""></p>
+<p>​        天文统计学研究表明，速度弥散<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex" xmlns="http://www.w3.org/2000/svg" width="1.292ex" height="1ex" role="img" focusable="false" viewBox="0 -431 571 442" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D70E" d="M184 -11Q116 -11 74 34T31 147Q31 247 104 333T274 430Q275 431 414 431H552Q553 430 555 429T559 427T562 425T565 422T567 420T569 416T570 412T571 407T572 401Q572 357 507 357Q500 357 490 357T476 358H416L421 348Q439 310 439 263Q439 153 359 71T184 -11ZM361 278Q361 358 276 358Q152 358 115 184Q114 180 114 178Q106 141 106 117Q106 67 131 47T188 26Q242 26 287 73Q316 103 334 153T356 233T361 278Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D70E" xlink:href="#MJX-1-TEX-I-1D70E"></use></g></g></g></svg></mjx-container>和恒星年龄呈相关关系。因此在已知其中一个量的情况下，可以较好的估计另一个量。</p>
+<h2 id="Faber-Jackson关系"><a href="#Faber-Jackson关系" class="headerlink" title="Faber-Jackson关系"></a>Faber-Jackson关系</h2><p>​        与盘星系对照，椭圆星系中的恒星并不遵循“有序旋转”，它们的大部分动能投入到了随机运动中。<strong>Faber-Jackson relation</strong>是<strong>椭圆星系</strong>的光度L与其中发光物质的速度弥散<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex" xmlns="http://www.w3.org/2000/svg" width="1.292ex" height="1ex" role="img" focusable="false" viewBox="0 -431 571 442" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D70E" d="M184 -11Q116 -11 74 34T31 147Q31 247 104 333T274 430Q275 431 414 431H552Q553 430 555 429T559 427T562 425T565 422T567 420T569 416T570 412T571 407T572 401Q572 357 507 357Q500 357 490 357T476 358H416L421 348Q439 310 439 263Q439 153 359 71T184 -11ZM361 278Q361 358 276 358Q152 358 115 184Q114 180 114 178Q106 141 106 117Q106 67 131 47T188 26Q242 26 287 73Q316 103 334 153T356 233T361 278Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D70E" xlink:href="#MJX-1-TEX-I-1D70E"></use></g></g></g></svg></mjx-container>的关系：</p>
+<center><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.889ex" xmlns="http://www.w3.org/2000/svg" width="7.984ex" height="3.127ex" role="img" focusable="false" viewBox="0 -989.2 3528.8 1382.1" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D43F" d="M228 637Q194 637 192 641Q191 643 191 649Q191 673 202 682Q204 683 217 683Q271 680 344 680Q485 680 506 683H518Q524 677 524 674T522 656Q517 641 513 637H475Q406 636 394 628Q387 624 380 600T313 336Q297 271 279 198T252 88L243 52Q243 48 252 48T311 46H328Q360 46 379 47T428 54T478 72T522 106T564 161Q580 191 594 228T611 270Q616 273 628 273H641Q647 264 647 262T627 203T583 83T557 9Q555 4 553 3T537 0T494 -1Q483 -1 418 -1T294 0H116Q32 0 32 10Q32 17 34 24Q39 43 44 45Q48 46 59 46H65Q92 46 125 49Q139 52 144 61Q147 65 216 339T285 628Q285 635 228 637Z"></path><path id="MJX-1-TEX-N-A0" d=""></path><path id="MJX-1-TEX-I-1D70E" d="M184 -11Q116 -11 74 34T31 147Q31 247 104 333T274 430Q275 431 414 431H552Q553 430 555 429T559 427T562 425T565 422T567 420T569 416T570 412T571 407T572 401Q572 357 507 357Q500 357 490 357T476 358H416L421 348Q439 310 439 263Q439 153 359 71T184 -11ZM361 278Q361 358 276 358Q152 358 115 184Q114 180 114 178Q106 141 106 117Q106 67 131 47T188 26Q242 26 287 73Q316 103 334 153T356 233T361 278Z"></path><path id="MJX-1-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path><path id="MJX-1-TEX-I-1D70B" d="M132 -11Q98 -11 98 22V33L111 61Q186 219 220 334L228 358H196Q158 358 142 355T103 336Q92 329 81 318T62 297T53 285Q51 284 38 284Q19 284 19 294Q19 300 38 329T93 391T164 429Q171 431 389 431Q549 431 553 430Q573 423 573 402Q573 371 541 360Q535 358 472 358H408L405 341Q393 269 393 222Q393 170 402 129T421 65T431 37Q431 20 417 5T381 -10Q370 -10 363 -7T347 17T331 77Q330 86 330 121Q330 170 339 226T357 318T367 358H269L268 354Q268 351 249 275T206 114T175 17Q164 -11 132 -11Z"></path><path id="MJX-1-TEX-I-1D43A" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q492 659 471 656T418 643T357 615T294 567T236 496T189 394T158 260Q156 242 156 221Q156 173 170 136T206 79T256 45T308 28T353 24Q407 24 452 47T514 106Q517 114 529 161T541 214Q541 222 528 224T468 227H431Q425 233 425 235T427 254Q431 267 437 273H454Q494 271 594 271Q634 271 659 271T695 272T707 272Q721 272 721 263Q721 261 719 249Q714 230 709 228Q706 227 694 227Q674 227 653 224Q646 221 643 215T629 164Q620 131 614 108Q589 6 586 3Q584 1 581 1Q571 1 553 21T530 52Q530 53 528 52T522 47Q448 -22 322 -22Q201 -22 126 55T50 252Z"></path><path id="MJX-1-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-1-TEX-I-1D435" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D43F" xlink:href="#MJX-1-TEX-I-1D43F"></use></g><g data-mml-node="mtext" transform="translate(681,0)"><use data-c="A0" xlink:href="#MJX-1-TEX-N-A0"></use></g><g data-mml-node="mfrac" transform="translate(931,0)"><g data-mml-node="msup" transform="translate(942.7,394) scale(0.707)"><g data-mml-node="mi"><use data-c="1D70E" xlink:href="#MJX-1-TEX-I-1D70E"></use></g><g data-mml-node="mn" transform="translate(604,363) scale(0.707)"><use data-c="34" xlink:href="#MJX-1-TEX-N-34"></use></g></g><g data-mml-node="mrow" transform="translate(220,-377.4) scale(0.707)"><g data-mml-node="mn"><use data-c="34" xlink:href="#MJX-1-TEX-N-34"></use></g><g data-mml-node="mi" transform="translate(500,0)"><use data-c="1D70B" xlink:href="#MJX-1-TEX-I-1D70B"></use></g><g data-mml-node="msup" transform="translate(1070,0)"><g data-mml-node="mi"><use data-c="1D43A" xlink:href="#MJX-1-TEX-I-1D43A"></use></g><g data-mml-node="mn" transform="translate(819,289) scale(0.707)"><use data-c="32" xlink:href="#MJX-1-TEX-N-32"></use></g></g><g data-mml-node="mi" transform="translate(2292.6,0)"><use data-c="1D435" xlink:href="#MJX-1-TEX-I-1D435"></use></g></g><rect width="2357.8" height="60" x="120" y="220"></rect></g></g></g></svg></mjx-container></center>
+
+<p>也即：</p>
+<center><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex" xmlns="http://www.w3.org/2000/svg" width="8.118ex" height="2.046ex" role="img" focusable="false" viewBox="0 -893.3 3588.2 904.3" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D43F" d="M228 637Q194 637 192 641Q191 643 191 649Q191 673 202 682Q204 683 217 683Q271 680 344 680Q485 680 506 683H518Q524 677 524 674T522 656Q517 641 513 637H475Q406 636 394 628Q387 624 380 600T313 336Q297 271 279 198T252 88L243 52Q243 48 252 48T311 46H328Q360 46 379 47T428 54T478 72T522 106T564 161Q580 191 594 228T611 270Q616 273 628 273H641Q647 264 647 262T627 203T583 83T557 9Q555 4 553 3T537 0T494 -1Q483 -1 418 -1T294 0H116Q32 0 32 10Q32 17 34 24Q39 43 44 45Q48 46 59 46H65Q92 46 125 49Q139 52 144 61Q147 65 216 339T285 628Q285 635 228 637Z"></path><path id="MJX-1-TEX-N-A0" d=""></path><path id="MJX-1-TEX-I-1D70E" d="M184 -11Q116 -11 74 34T31 147Q31 247 104 333T274 430Q275 431 414 431H552Q553 430 555 429T559 427T562 425T565 422T567 420T569 416T570 412T571 407T572 401Q572 357 507 357Q500 357 490 357T476 358H416L421 348Q439 310 439 263Q439 153 359 71T184 -11ZM361 278Q361 358 276 358Q152 358 115 184Q114 180 114 178Q106 141 106 117Q106 67 131 47T188 26Q242 26 287 73Q316 103 334 153T356 233T361 278Z"></path><path id="MJX-1-TEX-N-5C" d="M56 731Q56 740 62 745T75 750Q85 750 92 740Q96 733 270 255T444 -231Q444 -239 438 -244T424 -250Q414 -250 407 -240Q404 -236 230 242T56 731Z"></path><path id="MJX-1-TEX-N-67" d="M329 409Q373 453 429 453Q459 453 472 434T485 396Q485 382 476 371T449 360Q416 360 412 390Q410 404 415 411Q415 412 416 414V415Q388 412 363 393Q355 388 355 386Q355 385 359 381T368 369T379 351T388 325T392 292Q392 230 343 187T222 143Q172 143 123 171Q112 153 112 133Q112 98 138 81Q147 75 155 75T227 73Q311 72 335 67Q396 58 431 26Q470 -13 470 -72Q470 -139 392 -175Q332 -206 250 -206Q167 -206 107 -175Q29 -140 29 -75Q29 -39 50 -15T92 18L103 24Q67 55 67 108Q67 155 96 193Q52 237 52 292Q52 355 102 398T223 442Q274 442 318 416L329 409ZM299 343Q294 371 273 387T221 404Q192 404 171 388T145 343Q142 326 142 292Q142 248 149 227T179 192Q196 182 222 182Q244 182 260 189T283 207T294 227T299 242Q302 258 302 292T299 343ZM403 -75Q403 -50 389 -34T348 -11T299 -2T245 0H218Q151 0 138 -6Q118 -15 107 -34T95 -74Q95 -84 101 -97T122 -127T170 -155T250 -167Q319 -167 361 -139T403 -75Z"></path><path id="MJX-1-TEX-N-61" d="M137 305T115 305T78 320T63 359Q63 394 97 421T218 448Q291 448 336 416T396 340Q401 326 401 309T402 194V124Q402 76 407 58T428 40Q443 40 448 56T453 109V145H493V106Q492 66 490 59Q481 29 455 12T400 -6T353 12T329 54V58L327 55Q325 52 322 49T314 40T302 29T287 17T269 6T247 -2T221 -8T190 -11Q130 -11 82 20T34 107Q34 128 41 147T68 188T116 225T194 253T304 268H318V290Q318 324 312 340Q290 411 215 411Q197 411 181 410T156 406T148 403Q170 388 170 359Q170 334 154 320ZM126 106Q126 75 150 51T209 26Q247 26 276 49T315 109Q317 116 318 175Q318 233 317 233Q309 233 296 232T251 223T193 203T147 166T126 106Z"></path><path id="MJX-1-TEX-N-6D" d="M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q351 442 364 440T387 434T406 426T421 417T432 406T441 395T448 384T452 374T455 366L457 361L460 365Q463 369 466 373T475 384T488 397T503 410T523 422T546 432T572 439T603 442Q729 442 740 329Q741 322 741 190V104Q741 66 743 59T754 49Q775 46 803 46H819V0H811L788 1Q764 2 737 2T699 3Q596 3 587 0H579V46H595Q656 46 656 62Q657 64 657 200Q656 335 655 343Q649 371 635 385T611 402T585 404Q540 404 506 370Q479 343 472 315T464 232V168V108Q464 78 465 68T468 55T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D43F" xlink:href="#MJX-1-TEX-I-1D43F"></use></g><g data-mml-node="mtext" transform="translate(681,0)"><use data-c="A0" xlink:href="#MJX-1-TEX-N-A0"></use></g><g data-mml-node="msup" transform="translate(931,0)"><g data-mml-node="mi"><use data-c="1D70E" xlink:href="#MJX-1-TEX-I-1D70E"></use></g><g data-mml-node="TeXAtom" transform="translate(604,363) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mtext" fill="red" stroke="red"><use data-c="5C" xlink:href="#MJX-1-TEX-N-5C"></use><use data-c="67" xlink:href="#MJX-1-TEX-N-67" transform="translate(500,0)"></use><use data-c="61" xlink:href="#MJX-1-TEX-N-61" transform="translate(1000,0)"></use><use data-c="6D" xlink:href="#MJX-1-TEX-N-6D" transform="translate(1500,0)"></use><use data-c="61" xlink:href="#MJX-1-TEX-N-61" transform="translate(2333,0)"></use></g></g></g></g></g></svg></mjx-container></center>
+
+
+
+<h1 id="Coma星系团的速度弥散"><a href="#Coma星系团的速度弥散" class="headerlink" title="Coma星系团的速度弥散"></a>Coma星系团的速度弥散</h1><p>求速度弥散的时候需要注意</p>
+<pre><code class="lang-python">import numpy as np
+from astropy.io import fits as pyfits
+import astropy.io.fits as fits
+import matplotlib
+import matplotlib.pyplot as plt
+
+def loadData(filename):
+    &#39;&#39;&#39;
+    Read fits data
+
+    &#39;&#39;&#39;
+    tchfits = fits.open(filename)
+    tabl = tchfits[1].data.copy()
+    return tabl
+
+filename = &#39;ComaCluster.fits&#39;
+coma = loadData(filename)
+#排除掉红移速度小于0和大于两万的数据，太大的值有可能是背景星
+cz = coma.czA[(coma.czA&lt;20000) &amp; (coma.czA&gt;0)]
+sig_cz = np.var(cz) 
+print(np.sqrt(sig_cz)) #速度弥散
+zgrid =np.arange(2000.,12000.,750.)
+h, xedge = np.histogram(cz, bins=zgrid)   #h是histogram图的纵坐标，xedge是histogram的横坐标。名字任意。
+#根据bins的值（桶的个数）对cz划分
+
+print(h)
+fig = plt.figure(figsize=[4,4])
+ax = fig.add_subplot(111) 
+print(zgrid)
+ax.plot(zgrid[0:-1]+250,h,&#39;k*-&#39;)  #[0:-1]:第0个到倒数第二个元素
+ax.set_xlabel(&#39;redshift (km/s)&#39;)
+fig.show()
+</code></pre>
 
         </div>
         <!-- .entry-content -->
@@ -513,36 +501,19 @@ $ make install INSTALL_DIR=/some/other/place
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/2022/04/04/coma%E6%98%9F%E5%9B%A2%E5%BC%A5%E6%95%A3%E9%80%9F%E5%BA%A6/" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                coma星团弥散速度</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
         
           
-            <div class="post-nepre half next">
+            <div class="post-nepre full next">
           
-            <a href="/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/" rel="next">
+            <a href="/2022/03/26/astro-python/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://p0.meituan.net/dpgroup/8b25e72757bdae2e1ac5f3f8b0cebebe482459.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://p0.meituan.net/dpgroup/8b25e72757bdae2e1ac5f3f8b0cebebe482459.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://p0.meituan.net/dpgroup/65305069d35e742a1df0d0c9fded1df9653821.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://p0.meituan.net/dpgroup/65305069d35e742a1df0d0c9fded1df9653821.png">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                服务器部署jupyter notebook</h3>
+                R_Astro</h3>
                 <hr>
               </div>
             </a>

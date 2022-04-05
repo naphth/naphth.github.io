@@ -3,18 +3,18 @@
   <title>milkomeda</title>
   
   
-  <link href="http://www.rikka.world/atom.xml" rel="self"/>
+  <link href="http://www.rainend.org/atom.xml" rel="self"/>
   
-  <link href="http://www.rikka.world/"/>
+  <link href="http://www.rainend.org/"/>
   <updated>2022-04-04T14:22:21.610Z</updated>
-  <id>http://www.rikka.world/</id>
+  <id>http://www.rainend.org/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>coma星团弥散速度</title>
-    <link href="http://www.rikka.world/2022/04/04/coma%E6%98%9F%E5%9B%A2%E5%BC%A5%E6%95%A3%E9%80%9F%E5%BA%A6/"/>
-    <id>http://www.rikka.world/2022/04/04/coma%E6%98%9F%E5%9B%A2%E5%BC%A5%E6%95%A3%E9%80%9F%E5%BA%A6/</id>
+    <link href="http://www.rainend.org/2022/04/04/coma%E6%98%9F%E5%9B%A2%E5%BC%A5%E6%95%A3%E9%80%9F%E5%BA%A6/"/>
+    <id>http://www.rainend.org/2022/04/04/coma%E6%98%9F%E5%9B%A2%E5%BC%A5%E6%95%A3%E9%80%9F%E5%BA%A6/</id>
     <published>2022-04-04T08:07:52.000Z</published>
     <updated>2022-04-04T14:22:21.610Z</updated>
     
@@ -29,15 +29,15 @@
     
     
     
-    <category term="技术" scheme="http://www.rikka.world/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="http://www.rainend.org/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
   </entry>
   
   <entry>
     <title>R_Astro</title>
-    <link href="http://www.rikka.world/2022/03/26/astro-python/"/>
-    <id>http://www.rikka.world/2022/03/26/astro-python/</id>
+    <link href="http://www.rainend.org/2022/03/26/astro-python/"/>
+    <id>http://www.rainend.org/2022/03/26/astro-python/</id>
     <published>2022-03-26T13:13:24.000Z</published>
     <updated>2022-03-27T08:29:36.889Z</updated>
     
@@ -52,15 +52,15 @@
     
     
     
-    <category term="资源" scheme="http://www.rikka.world/categories/%E8%B5%84%E6%BA%90/"/>
+    <category term="资源" scheme="http://www.rainend.org/categories/%E8%B5%84%E6%BA%90/"/>
     
     
   </entry>
   
   <entry>
     <title>服务器部署jupyter notebook</title>
-    <link href="http://www.rikka.world/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/"/>
-    <id>http://www.rikka.world/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/</id>
+    <link href="http://www.rainend.org/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/"/>
+    <id>http://www.rainend.org/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/</id>
     <published>2022-03-16T19:38:05.000Z</published>
     <updated>2022-04-04T15:39:49.790Z</updated>
     
@@ -76,17 +76,17 @@
     
     
     
-    <category term="技术" scheme="http://www.rikka.world/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="http://www.rainend.org/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="web" scheme="http://www.rikka.world/tags/web/"/>
+    <category term="web" scheme="http://www.rainend.org/tags/web/"/>
     
   </entry>
   
   <entry>
     <title>恒星结构-名词解释</title>
-    <link href="http://www.rikka.world/2021/12/02/%E6%81%92%E6%98%9F%E7%BB%93%E6%9E%84-%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/"/>
-    <id>http://www.rikka.world/2021/12/02/%E6%81%92%E6%98%9F%E7%BB%93%E6%9E%84-%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</id>
+    <link href="http://www.rainend.org/2021/12/02/%E6%81%92%E6%98%9F%E7%BB%93%E6%9E%84-%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/"/>
+    <id>http://www.rainend.org/2021/12/02/%E6%81%92%E6%98%9F%E7%BB%93%E6%9E%84-%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</id>
     <published>2021-12-02T13:13:39.000Z</published>
     <updated>2022-03-29T14:06:06.538Z</updated>
     
@@ -101,15 +101,15 @@
     
     
     
-    <category term="文章" scheme="http://www.rikka.world/categories/%E6%96%87%E7%AB%A0/"/>
+    <category term="文章" scheme="http://www.rainend.org/categories/%E6%96%87%E7%AB%A0/"/>
     
     
   </entry>
   
   <entry>
     <title>某科学の自动打卡脚本</title>
-    <link href="http://www.rikka.world/2021/11/28/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E8%84%9A%E6%9C%AC/"/>
-    <id>http://www.rikka.world/2021/11/28/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E8%84%9A%E6%9C%AC/</id>
+    <link href="http://www.rainend.org/2021/11/28/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E8%84%9A%E6%9C%AC/"/>
+    <id>http://www.rainend.org/2021/11/28/%E6%9F%90%E7%A7%91%E5%AD%A6%E7%9A%84%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E8%84%9A%E6%9C%AC/</id>
     <published>2021-11-27T21:41:05.000Z</published>
     <updated>2022-03-26T06:28:28.238Z</updated>
     
@@ -124,15 +124,15 @@
     
     
     
-    <category term="技术" scheme="http://www.rikka.world/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="http://www.rainend.org/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
   </entry>
   
   <entry>
     <title>射电天文简述</title>
-    <link href="http://www.rikka.world/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/"/>
-    <id>http://www.rikka.world/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/</id>
+    <link href="http://www.rainend.org/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/"/>
+    <id>http://www.rainend.org/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/</id>
     <published>2021-10-23T14:56:56.000Z</published>
     <updated>2022-03-26T12:28:17.625Z</updated>
     
@@ -148,15 +148,15 @@
     
     
     
-    <category term="文章" scheme="http://www.rikka.world/categories/%E6%96%87%E7%AB%A0/"/>
+    <category term="文章" scheme="http://www.rainend.org/categories/%E6%96%87%E7%AB%A0/"/>
     
     
   </entry>
   
   <entry>
     <title>说明书</title>
-    <link href="http://www.rikka.world/2021/07/01/%E8%AF%B4%E6%98%8E%E4%B9%A6/"/>
-    <id>http://www.rikka.world/2021/07/01/%E8%AF%B4%E6%98%8E%E4%B9%A6/</id>
+    <link href="http://www.rainend.org/2021/07/01/%E8%AF%B4%E6%98%8E%E4%B9%A6/"/>
+    <id>http://www.rainend.org/2021/07/01/%E8%AF%B4%E6%98%8E%E4%B9%A6/</id>
     <published>2021-06-30T19:38:05.000Z</published>
     <updated>2022-03-22T14:12:34.458Z</updated>
     
@@ -171,10 +171,10 @@
     
     
     
-    <category term="技术" scheme="http://www.rikka.world/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="http://www.rainend.org/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="web" scheme="http://www.rikka.world/tags/web/"/>
+    <category term="web" scheme="http://www.rainend.org/tags/web/"/>
     
   </entry>
   

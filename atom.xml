@@ -6,10 +6,33 @@
   <link href="http://www.rainend.org/atom.xml" rel="self"/>
   
   <link href="http://www.rainend.org/"/>
-  <updated>2022-04-05T16:06:31.707Z</updated>
+  <updated>2022-04-09T12:57:44.169Z</updated>
   <id>http://www.rainend.org/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PSR观测(1)</title>
+    <link href="http://www.rainend.org/2022/04/09/PSR%E8%A7%82%E6%B5%8B-1/"/>
+    <id>http://www.rainend.org/2022/04/09/PSR%E8%A7%82%E6%B5%8B-1/</id>
+    <published>2022-04-09T12:41:19.000Z</published>
+    <updated>2022-04-09T12:57:44.169Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;什么是脉冲星-PSR-？&quot;&gt;&lt;a href=&quot;#什么是脉冲星-PSR-？&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://www.rainend.org/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>coma星团弥散速度</title>

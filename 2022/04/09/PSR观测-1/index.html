@@ -428,27 +428,18 @@
 <p><img src="https://cdn.jsdelivr.net/gh/naphth/ImgHosting/ee.jpg" alt="900" style="zoom:65%;" /></p>
 <p>一般认为中子星由大气、外壳、内壳、外核和内核组成。其中大气和外壳主要是一些原子核、电子简并气和一些中子（过渡层），到了外核的时候中子成分逐渐增加成为主要成分，内核是quark-hadron transition&amp;&amp;quarks？</p>
 <h1 id="脉冲星的观测量"><a href="#脉冲星的观测量" class="headerlink" title="脉冲星的观测量"></a>脉冲星的观测量</h1><p>想要准确建立中子星的理论模型，需要很多参数的支持，然而中子星通常离我们非常远、且尺度非常小～10km，导致了在光学上很难观测到（历史上第一次发现中子星并不是在光学波段直接看到的，而是由贝尔在射电波段观测到的）。所以我们大多数情况下只能通过观测那些能发射脉冲的中子星（脉冲星），通过观测脉冲星发射的脉冲信号的性质来反推中子星的参数。</p>
- <pre class="mermaid">classDiagram
-      Animal <|-- Duck
-      Animal <|-- Fish
-      Animal <|-- Zebra
-      Animal : +int age
-      Animal : +String gender
-      Animal: +isMammal()
-      Animal: +mate()
-      class Duck{
-          +String beakColor
-          +swim()
-          +quack()
-      }
-      class Fish{
-          -int sizeInFeet
-          -canEat()
-      }
-      class Zebra{
-          +bool is_wild
-          +run()
-      }</pre>
+ <pre class="mermaid">graph TD;
+    观测量:.-脉冲星参数:;
+    点源-->位置距离;
+    色散效应-->位置距离;
+    宽频带辐射-->磁场演化;
+    周期脉冲和变化率-->磁场演化;
+    周期脉冲和变化率-->自转参数;
+    双星记时-->质量;
+    双星记时-->所在环境;
+    无对应观测量-->半径;
+    无对应观测量-->密度分布;
+    无对应观测量-->物质组成;</pre>
         </div>
         <!-- .entry-content -->
         <div class="single-reward">

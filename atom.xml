@@ -58,29 +58,6 @@
   </entry>
   
   <entry>
-    <title>R_Astro</title>
-    <link href="http://www.rainend.org/2022/03/26/astro-python/"/>
-    <id>http://www.rainend.org/2022/03/26/astro-python/</id>
-    <published>2022-03-26T13:13:24.000Z</published>
-    <updated>2022-03-27T08:29:36.889Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;基础库（主要的支持库）：&quot;&gt;&lt;a href=&quot;#基础库（主要的支持库）：&quot; class=&quot;headerlink&quot; title=&quot;基础库（主要的支持库）：&quot;&gt;&lt;/a&gt;基础库（主要的支持库）：&lt;/h1&gt;&lt;p&gt;numpy, matplotlib, ipython,</summary>
-        
-      
-    
-    
-    
-    <category term="资源" scheme="http://www.rainend.org/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>服务器部署jupyter notebook</title>
     <link href="http://www.rainend.org/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/"/>
     <id>http://www.rainend.org/2022/03/17/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2jupyter%20notebook/</id>
@@ -153,6 +130,30 @@
   </entry>
   
   <entry>
+    <title>R_Astro</title>
+    <link href="http://www.rainend.org/2021/10/26/astro-python/"/>
+    <id>http://www.rainend.org/2021/10/26/astro-python/</id>
+    <published>2021-10-26T13:13:24.000Z</published>
+    <updated>2021-10-26T15:27:12.307Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;不定时更新（大概&lt;/p&gt;
+&lt;h1 id=&quot;基础库（主要的支持库）：&quot;&gt;&lt;a href=&quot;#基础库（主要的支持库）：&quot; class=&quot;headerlink&quot; title=&quot;基础库（主要的支持库）：&quot;&gt;&lt;/a&gt;基础库（主要的支持库）：&lt;/h1&gt;&lt;p&gt;numpy,</summary>
+        
+      
+    
+    
+    
+    <category term="资源" scheme="http://www.rainend.org/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>射电天文简述</title>
     <link href="http://www.rainend.org/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/"/>
     <id>http://www.rainend.org/2021/10/23/%E5%B0%84%E7%94%B5%E5%A4%A9%E6%96%87%E7%AE%80%E8%BF%B0/</id>
@@ -181,7 +182,7 @@
     <link href="http://www.rainend.org/2021/07/01/%E8%AF%B4%E6%98%8E%E4%B9%A6/"/>
     <id>http://www.rainend.org/2021/07/01/%E8%AF%B4%E6%98%8E%E4%B9%A6/</id>
     <published>2021-06-30T19:38:05.000Z</published>
-    <updated>2022-04-13T12:18:04.292Z</updated>
+    <updated>2021-07-20T12:25:20.675Z</updated>
     
     
     <summary type="html">这篇文章被加密了, 请输入密码查看.</summary>

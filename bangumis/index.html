@@ -1762,15 +1762,6 @@ const g=m[b].parentNode.siblings().length;m[b].innerText=`1 / ${0===a(g/10)?1:a(
       <!-- .entry-content -->
       
 
-{%- set numExp = r/^[0-9]+$/g -%}
-{%- set qqMailExp = r/^[0-9]+@qq\.com$/ig -%}
-{%- if numExp.test(nick) -%}
-  https://q1.qlogo.cn/g?b=qq&nk={{nick}}&s=100
-{%- elif qqMailExp.test(mail) -%}
-  https://q1.qlogo.cn/g?b=qq&nk={{mail|replace('@qq.com', '')}}&s=100
-{%- else -%}
-  https://seccdn.libravatar.org/avatar/{{mail|md5}}
-{%- endif -%}
 
       <div class="single-reward">
         <div class="reward-open">赏

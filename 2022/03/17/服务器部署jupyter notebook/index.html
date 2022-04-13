@@ -589,15 +589,6 @@ systemctl restart firewalld.service
     </script>
 
 
-{%- set numExp = r/^[0-9]+$/g -%}
-{%- set qqMailExp = r/^[0-9]+@qq\.com$/ig -%}
-{%- if numExp.test(nick) -%}
-  https://q1.qlogo.cn/g?b=qq&nk={{nick}}&s=100
-{%- elif qqMailExp.test(mail) -%}
-  https://q1.qlogo.cn/g?b=qq&nk={{mail|replace('@qq.com', '')}}&s=100
-{%- else -%}
-  https://seccdn.libravatar.org/avatar/{{mail|md5}}
-{%- endif -%}
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">

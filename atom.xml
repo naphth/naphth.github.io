@@ -6,7 +6,7 @@
   <link href="http://www.rainend.org/atom.xml" rel="self"/>
   
   <link href="http://www.rainend.org/"/>
-  <updated>2022-04-16T15:40:25.331Z</updated>
+  <updated>2022-04-16T15:44:43.129Z</updated>
   <id>http://www.rainend.org/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
@@ -16,7 +16,7 @@
     <link href="http://www.rainend.org/2022/04/09/PSR%E8%A7%82%E6%B5%8B-1/"/>
     <id>http://www.rainend.org/2022/04/09/PSR%E8%A7%82%E6%B5%8B-1/</id>
     <published>2022-04-09T12:41:19.000Z</published>
-    <updated>2022-04-16T15:40:25.331Z</updated>
+    <updated>2022-04-16T15:44:43.129Z</updated>
     
     
       
@@ -173,6 +173,29 @@
     
     
     <category term="文章" scheme="http://www.rainend.org/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>打造一台HI射电望远镜</title>
+    <link href="http://www.rainend.org/2021/10/20/HI%E5%B0%84%E7%94%B5%E6%9C%9B%E8%BF%9C%E9%95%9C/"/>
+    <id>http://www.rainend.org/2021/10/20/HI%E5%B0%84%E7%94%B5%E6%9C%9B%E8%BF%9C%E9%95%9C/</id>
+    <published>2021-10-20T12:30:54.000Z</published>
+    <updated>2022-04-19T06:33:33.781Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="http://www.rainend.org/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
   </entry>

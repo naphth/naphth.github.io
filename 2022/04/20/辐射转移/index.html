@@ -455,10 +455,22 @@
 \frac{d I_{v}}{d s}=j_{v}-\alpha_{v} I_{v} \quad \frac{d I_{v}}{d \tau_{v}}=S_{v}-I_{v}</script><p>||理解记忆(第一种形式)：一束光通过一介质后，其强度的增量等于<u>介质自身的辐射</u>减去被介质吸收的部分。<br>||第二种形式由第一种形式两边同时除以吸收系数$\alpha_v$并结合微分光深公式得到。</p>
 <p><strong>辐射转移方程的通解</strong>：</p>
 <script type="math/tex; mode=display">
-I_{\nu}\left(\tau_{\nu}\right)=I_{\nu, 0} e^{-\tau_{\nu}}+\int_{0}^{\tau_{\nu}} e^{-\left(\tau_{\nu}-\tau_{\nu}^{\prime}\right)} S_{\nu}\left(\tau_{\nu}^{\prime}\right) d \tau_{\nu}^{\prime}</script><p>理解记忆：右边第一项为入射强度经过光深为$\tau$的介质后变换了一个因子$e^{-\tau_v}$，第二项则是沿途各处产生的辐射$S_v$穿过介质变换了与光深相应的因子$e^{-(\tau_v-\tau_v ‘)}$</p>
-<p>特解：源函数为常数，入射强度为0时。</p>
+I_{\nu}\left(\tau_{\nu}\right)=I_{\nu, 0} e^{-\tau_{\nu}}+\int_{0}^{\tau_{\nu}} e^{-\left(\tau_{\nu}-\tau_{\nu}^{\prime}\right)} S_{\nu}\left(\tau_{\nu}^{\prime}\right) d \tau_{\nu}^{\prime}</script><p><img src="https://cdn.jsdelivr.net/gh/naphth/ImgHosting/sen.jpg" alt=""></p>
+<p>理解记忆：右边第一项为入射强度经过光深为$\tau$的介质后变换了一个因子$e^{-\tau_v}$，第二项则是<strong>沿途各处(介质)</strong>产生的辐射$S_v$穿过介质变换了与光深相应的因子$e^{-(\tau_v-\tau_v ‘)}$</p>
+<p>特解：</p>
+<p>1.源函数为常数的特解：</p>
 <script type="math/tex; mode=display">
-I_{\nu}\left(\tau_{\nu}\right)=\frac{j_{\nu}}{\alpha_{\nu}}\left(1-e^{-\tau_{\nu}}\right)</script>
+I_{\nu}\left(\tau_{\nu}\right)=I_{\nu, 0} e^{-\tau_{\nu}}+S_{\nu}\left(1-e^{-\tau_{\nu}}\right)</script><p>出射强度由第一项入射光的贡献和第二项沿途各点介质本身（净）辐射的贡献。</p>
+<p>2.源函数为常数，入射强度为0时的特解：</p>
+<script type="math/tex; mode=display">
+I_{\nu}\left(\tau_{\nu}\right)=\frac{j_{\nu}}{\alpha_{\nu}}\left(1-e^{-\tau_{\nu}}\right)</script><p>a)若源是光学薄的，辐射强度为(等价无穷小or泰勒)：</p>
+<script type="math/tex; mode=display">
+I_{v}\left(\tau_{v}\right)=\left(j_{v} / \alpha_{v}\right) \tau_{v}=j_{v} R \quad \text { for } \quad \tau_{v}<<1</script><p>​        ||光学薄时源的辐射强度约等于发射系数乘以尺度R$(R=\tau_v/\alpha_v)$。</p>
+<p>b)若源是光学厚的，辐射强度为：</p>
+<script type="math/tex; mode=display">
+I_{v}\left(\tau_{v}\right)=j_{v} / \alpha_{v}=\frac{j_{v} R}{\tau_{v}} \text { for } \tau_{v}>>1</script><script type="math/tex; mode=display">
+\because \frac{1}{\alpha_{v}} \equiv l_{v} \quad \text { (平均自由程) } \quad \therefore I_{v}\left(\tau_{v}\right)=j_{v} l_{v}</script><p>​        ||对于光学厚源，可以理解为我们看到的辐射主要是<strong>从表面到一个平均自由程$l_v$处</strong>来的，即光学薄的那层介质的辐射，此处的光子才能逃逸出来。</p>
+
         </div>
         <!-- .entry-content -->
         <div class="single-reward">

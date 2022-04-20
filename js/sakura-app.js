@@ -80,7 +80,7 @@ mashiro_global.ini = new function () {
     hearthstone_deck_iframe()
     if (isInitialLoad === false) {
     if (typeof MathJax !== 'undefined'){
-      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+      MathJax.Hub.Queue(["Typeset",MathJax.Hub])
 	}
   }
 }()

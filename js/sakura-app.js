@@ -78,7 +78,7 @@ mashiro_global.ini = new function () {
       get_poem('#poem', '#info')
     }
     hearthstone_deck_iframe()
-  }
+    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 }()
 mashiro_global.lib = new function () {
   this.removeClass = function (ele, className) {

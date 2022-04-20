@@ -77,7 +77,10 @@ mashiro_global.ini = new function () {
     if ($('div').hasClass('poem-wrap')) {
       get_poem('#poem', '#info')
     }
-    MathJax.Hub.Queue(["Typeset",MathJax.Hub])
+    if (isInitialLoad === false) {
+    if (typeof MathJax !== 'undefined'){
+      MathJax.Hub.Queue(["Typeset",MathJax.Hub])
+	}
     hearthstone_deck_iframe()
   }
 }()

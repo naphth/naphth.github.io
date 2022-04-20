@@ -78,7 +78,7 @@ mashiro_global.ini = new function () {
     if ($('div').hasClass('poem-wrap')) {
       get_poem('#poem', '#info')
     }
-    hearthstone_deck_iframe()
+    
   }
 }()
 mashiro_global.lib = new function () {

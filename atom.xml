@@ -6,10 +6,25 @@
   <link href="http://www.rainend.org/atom.xml" rel="self"/>
   
   <link href="http://www.rainend.org/"/>
-  <updated>2022-04-16T15:44:43.129Z</updated>
+  <updated>2022-04-19T10:22:29.092Z</updated>
   <id>http://www.rainend.org/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>导论1</title>
+    <link href="http://www.rainend.org/2022/04/19/%E5%AF%BC%E8%AE%BA1/"/>
+    <id>http://www.rainend.org/2022/04/19/%E5%AF%BC%E8%AE%BA1/</id>
+    <published>2022-04-19T10:22:29.000Z</published>
+    <updated>2022-04-19T10:22:29.092Z</updated>
+    
+    
+    
+    
+    <category term="技术" scheme="http://www.rainend.org/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>PSR观测(1)</title>

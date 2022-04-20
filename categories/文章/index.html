@@ -436,7 +436,7 @@
           <i class="iconfont icon-text">
           </i>
         </div>
-        <img width="150" height="150" src="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
+        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/naphth/ImgHosting/E22C06289217F3BEA83695D237486129.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
       </a>
     </div>
     <h1 class="entry-title">
@@ -547,7 +547,7 @@
           <i class="iconfont icon-text">
           </i>
         </div>
-        <img width="150" height="150" src="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
+        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/naphth/ImgHosting/E22C06289217F3BEA83695D237486129.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
       </a>
     </div>
     <h1 class="entry-title">
@@ -1459,5 +1459,21 @@ $(document).ready(function() {
 
 
  
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 </body>
 </html>

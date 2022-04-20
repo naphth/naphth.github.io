@@ -6,7 +6,7 @@
   <link href="http://www.rainend.org/atom.xml" rel="self"/>
   
   <link href="http://www.rainend.org/"/>
-  <updated>2022-04-20T12:06:46.558Z</updated>
+  <updated>2022-04-20T12:56:55.902Z</updated>
   <id>http://www.rainend.org/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
@@ -16,7 +16,7 @@
     <link href="http://www.rainend.org/2022/04/20/%E8%BE%90%E5%B0%84%E8%BD%AC%E7%A7%BB/"/>
     <id>http://www.rainend.org/2022/04/20/%E8%BE%90%E5%B0%84%E8%BD%AC%E7%A7%BB/</id>
     <published>2022-04-20T12:06:06.000Z</published>
-    <updated>2022-04-20T12:06:46.558Z</updated>
+    <updated>2022-04-20T12:56:55.902Z</updated>
     
     
       
@@ -32,21 +32,6 @@
     
     
     <category term="文章" scheme="http://www.rainend.org/categories/%E6%96%87%E7%AB%A0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>导论1</title>
-    <link href="http://www.rainend.org/2022/04/19/%E5%AF%BC%E8%AE%BA1/"/>
-    <id>http://www.rainend.org/2022/04/19/%E5%AF%BC%E8%AE%BA1/</id>
-    <published>2022-04-19T10:22:29.000Z</published>
-    <updated>2022-04-19T10:22:29.092Z</updated>
-    
-    
-    
-    
-    <category term="技术" scheme="http://www.rainend.org/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
   </entry>

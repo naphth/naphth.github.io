@@ -97,7 +97,7 @@ function bot_ui_ini() {
                         })
                     })
                 })
-            })
+            }
         },
         thirdpart = function () {
             botui.message.add({

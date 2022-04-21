@@ -65,8 +65,12 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前在进行射电天文学方向的学习与研究"
+                content: "目前在NAOC进行学习与研究"
             }).then(function () {
+                botui.message.add({
+                    delay: 1500,
+                    content: "方向是射电天文学"
+                }).then(function () {
                     botui.message.add({
                         delay: 2000,
                         content: "对射电天文的一切软硬件技术及致密天体物理（脉冲星与中子星等）感兴趣～"
@@ -81,7 +85,7 @@ function bot_ui_ini() {
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "目前的愿望是疫情早点结束，想要去rua遍世界各地的望远镜...呜呜呜´◔‸◔`"
+                                    content: "目前的愿望是希望疫情早点结束，想要rua遍世界各地的望远镜...呜呜呜´◔‸◔`"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
@@ -97,7 +101,7 @@ function bot_ui_ini() {
                         })
                     })
                 })
-            }
+            })
         },
         thirdpart = function () {
             botui.message.add({

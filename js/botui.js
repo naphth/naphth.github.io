@@ -65,15 +65,11 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前在NAOC进行学习与研究"
+                content: "我的方向是射电天文学"
             }).then(function () {
-                botui.message.add({
-                    delay: 1500,
-                    content: "方向是射电天文学"
-                }).then(function () {
                     botui.message.add({
                         delay: 2000,
-                        content: "对射电天文的一切软硬件技术及致密天体物理（脉冲星与中子星等）感兴趣～"
+                        content: "对射电天文的一切软硬件技术及致密天体物理&CMB物理感兴趣～"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
@@ -81,12 +77,8 @@ function bot_ui_ini() {
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "咱还梦想成为一名业余RPG游戏制作人或者业余科幻小说家！😎"
+                                content: "咱还梦想成为一名业余RPG游戏制作人&业余科幻小说家！😎"
                             }).then(function () {
-                                botui.message.add({
-                                    delay: 1800,
-                                    content: "目前的愿望是希望疫情早点结束，想要rua遍世界各地的望远镜...呜呜呜´◔‸◔`"
-                                }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
@@ -96,12 +88,10 @@ function bot_ui_ini() {
                                     }).then(function (a) {
                                         thirdpart()
                                     })
-                                })
-                            })
+                              })
                         })
                     })
                 })
-            })
         },
         thirdpart = function () {
             botui.message.add({
@@ -111,7 +101,7 @@ function bot_ui_ini() {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "站名为什么是milkomeda呢？ 🤔",
+                        text: "站名为什么是rainend呢？ 🤔",
                         value: "why-mo"
                     }]
                 }).then(function (a) {
@@ -122,28 +112,23 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "咳咳，这事儿得从4Gyr后仙女座星系和银河系的碰撞说起..."
+                content: "说来话短...，emm，谐音梗罢了"
             }).then(function () {
-                botui.message.add({
-                    delay: 1500,
-                    content: "（才...才不是犯病的时候随便起的呢，哼！◞．‸．◟"
-                }).then(function () {
                     botui.action.button({
                         delay: 1500,
                         action: [{
-                            text: "域名有什么含意吗？(ง •_•)ง",
+                            text: "你有什么愿望吗？(ง •_•)ง",
                             value: "why-domain"
                         }]
                     }).then(function (a) {
                         fifthpart()
-                    })
-                })
+                  })
             })
         },
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "说来话短，谐音梗罢了。"
+                content: "目前的愿望是希望疫情早点结束，想要rua遍世界各地的望远镜...呜呜´◔‸◔`"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,

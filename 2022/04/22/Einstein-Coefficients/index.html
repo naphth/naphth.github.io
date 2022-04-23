@@ -445,9 +445,11 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <h1 id="Einstein-Coefficients-爱因斯坦系数"><a href="#Einstein-Coefficients-爱因斯坦系数" class="headerlink" title="Einstein Coefficients 爱因斯坦系数"></a>Einstein Coefficients 爱因斯坦系数</h1><p><u>爱因斯坦系数描述粒子的发射与吸收性质</u>, 包括:</p>
+          <h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>经典辐射理论只适用于光子能量远小于辐射粒子动能的情况$h\nu \ll E$，但天体物理中很多辐射并不满足这个条件。<br>对于$h\nu \sim E$这类辐射，严格来说应该用量子电动力学(QED)来描述，那就对于刚入坑的人(我)来说不太友好。<br>所以有没有一种折中的办法呢？当然是有的。<br>天体物理中的大多数辐射现象都可以用一个叫“半经典的量子辐射”的理论处理。<br>那半经典是个啥？<br>总的来说大概就是只考虑带电粒子运动的量子化；而辐射场不量子化，仍当作经典电磁场处理。</p>
+<p>不同于经典辐射理论的先求辐射场各点场强(<strong>E,B</strong>)，而是将辐射看作带电粒子的能级跃迁过程。<br>为求辐射的基本问题：功率、角分布、谱分布、偏振等<br>核心问题即求量子态之间跃迁概率。</p>
+<h1 id="Einstein-Coefficients-爱因斯坦系数"><a href="#Einstein-Coefficients-爱因斯坦系数" class="headerlink" title="Einstein Coefficients 爱因斯坦系数"></a>Einstein Coefficients 爱因斯坦系数</h1><p><u>爱因斯坦系数描述粒子的发射与吸收性质</u>, 包括:</p>
 <p><img src="https://cdn.jsdelivr.net/gh/naphth/ImgHosting/send3.jpg" alt=""></p>
-<p><strong>自发发射系数 $\mathrm{A}_{21}$</strong> ：单位时间内粒子从能级 2 跃迁到能级 1、发射一个频率为 $v$ 的光子的概率 $h v=E_{2}-E_{1}$ (the transition probability per unit time for spontaneous emission at $h v=E_{2}-E_{1}$ )<br><strong>吸收系数 $\mathrm{B}_{12}$ </strong>: 单位时间内粒子吸收一个频率为 $v$ 的光子从能级1 跃迁到能级 2 的概率 ) 为 $\mathrm{B}_{12} \mathrm{~J}_{\mathrm{v}}\left(B_{12} J_{v}\right.$ describes the transition probability per unit time for absorption)<br>其中 $J_{\nu}=(1 / 4 \pi) \int I_{\nu} d \Omega$<br><strong>受激发射系数 $\mathrm{B}_{21}$ </strong>：受 $J_{v}$ 的刺激（扰动）, 单位时间内粒子从能级2跃迁到能 级I并辐射一个频率为 $v$ 的光子的概率) 为 $\mathrm{B}_{21} \mathrm{J_v}$<br>$\left(B_{2 l} J_{v}\right.$ describes the transition probability per unit time for stimulated emission)</p>
+<p><strong>自发发射系数 $\mathrm{A}_{21}$</strong> ：单位时间内粒子从能级 2 跃迁到能级 1、发射一个频率为 $v$ 的光子的概率 $h v=E_{2}-E_{1}$ (the transition probability per unit time for spontaneous emission at $h v=E_{2}-E_{1}$ )<br><strong>吸收系数 $\mathrm{B}_{12}$ </strong>: 单位时间内粒子吸收一个频率为 $v$ 的光子从能级1 跃迁到能级 2 的概率 ) 为 $p_a=\mathrm{B}_{12} \mathrm{~J}_{\mathrm{v}}\left(B_{12} J_{v}\right.$ describes the transition probability per unit time for absorption)<br>其中 $J_{\nu}=(1 / 4 \pi) \int I_{\nu} d \Omega$<br>$I_v$为辐射强度，$\frac{d \Omega}{4\pi}$是越迁的光子沿某立体角元传播，占全天的比例<br><strong>受激发射系数 $\mathrm{B}_{21}$ </strong>：受 $J_{v}$ 的刺激（扰动）, 单位时间内粒子从能级2跃迁到能 级I并辐射一个频率为 $v$ 的光子的概率) 为 $p_i=\mathrm{B}_{21} \mathrm{J_v}$<br>$\left(B_{2 l} J_{v}\right.$ describes the transition probability per unit time for stimulated emission)</p>
 <p>由热力学平衡时光子数守恒(n1和n2为位于能级1、2的光子数)，发射数=吸收数：</p>
 <script type="math/tex; mode=display">
 \begin{array}{ll} 
@@ -458,6 +460,9 @@
 n_{i}=\frac{N}{Z} g_{i} e^{-E_{i} / k T}</script><p>其中N为总粒子数, $Z=\sum_{i} g_{i} e^{-E_{l} / k T}$</p>
 <script type="math/tex; mode=display">
 \longrightarrow \frac{n_{1}}{n_{2}}=\frac{g_{1}}{g_{2}} \frac{e^{-E / k T}}{e^{-(E+h \nu) / k T}}=\frac{g_{1}}{g_{2}} e^{h \nu / k T}</script><p>where $g_{1}$ and $g_{2}$ are the statistical weights (统计权重) of the levels $\mathrm{I}$ and $2 .$<br>Thus, $\quad J_{\nu}=\frac{A_{21} / B_{21}}{\left(g_{1} B_{12} / g_{2} B_{21}\right) e^{h \nu / k T}-1}$</p>
+<p>在处于热力学平衡的黑体内部或封闭系统内, $J_{v}=B_{v}$ (普朗克函数)，</p>
+<script type="math/tex; mode=display">
+J_{v}=B_{v}=\frac{2 h v^{3}}{c^{2}} \frac{1}{e^{\frac{h v}{k T}}-1}</script><p>利用 $J_{\nu}=\frac{A_{21} / B_{21}}{\left(g_{1} B_{12} / g_{2} B_{21}\right) e^{h \nu / k T}-1} \quad$ 得到<br>$\begin{aligned} g_{1} B_{12} &amp;=g_{2} B_{21} \\ A_{21} &amp;=\frac{2 h \nu^{3}}{c^{2}} B_{21} \end{aligned} \quad\left(\begin{array}{l}\text { 注意: 此关系在这里是在热平衡导 } \\ \text { 出, 对非热平衡也适应, 因为它反 } \\ \text { 映的是原子过程, 与温度无关 }\end{array}\right)$<br>The relations between the Einstein coefficients are called Einstein relations, they imply that <strong>we need to know only one of them to find the others. They have no reference to the temperature</strong> (unlike Kirchhoff’law), thus it holds whether or not the atoms are in LTE.</p>
 
         </div>
         <!-- .entry-content -->

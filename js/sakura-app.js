@@ -71,10 +71,10 @@ mashiro_global.ini = new function () {
   }
   this.pjax = function () {
     pjaxInit()
+    MathJax.Hub.Queue(["Typeset",MathJax.Hub])
     social_share()
     mashiro_global.post_list_show_animation.ini()
     copy_code_block()
-    MathJax.Hub.Queue(["Typeset",MathJax.Hub])
     if ($('div').hasClass('poem-wrap')) {
       get_poem('#poem', '#info')
     }
@@ -1611,9 +1611,6 @@ $(function () {
   $(document).on('click', '.specsZan', function () {
     $(this).postLike()
   })
-  console.log('%c Mashiro %c', 'background:#24272A; color:#ffffff', '', 'https://2heng.xin/')
-  console.log('%c hojun %c', 'background:#24272A; color:#ffffff', '', 'https://www.hojun.cn/')
-  console.log('%c Github %c', 'background:#24272A; color:#ffffff', '', 'https://github.com/honjun/hexo-theme-sakura')
 })
 var isWebkit = navigator.userAgent.toLowerCase().indexOf('webkit') > -1,
   isOpera = navigator.userAgent.toLowerCase().indexOf('opera') > -1,

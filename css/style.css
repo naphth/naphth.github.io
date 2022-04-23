@@ -4937,7 +4937,7 @@ i.iconfont.js-toggle-search.iconsearch {
     max-width:250px !important;
     height:100%;
     z-index:999;
-    position:absolute;
+    position:fixed;
     top:0;
     left:0;
     display:block;

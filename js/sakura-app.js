@@ -71,7 +71,6 @@ mashiro_global.ini = new function () {
   }
   this.pjax = function () {
     pjaxInit()
-    MathJax.Hub.Queue(["Typeset",MathJax.Hub])
     social_share()
     mashiro_global.post_list_show_animation.ini()
     copy_code_block()

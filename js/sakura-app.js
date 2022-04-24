@@ -74,11 +74,11 @@ mashiro_global.ini = new function () {
     social_share()
     mashiro_global.post_list_show_animation.ini()
     copy_code_block()
-    
+    MathJax.Hub.Queue(["Typeset",MathJax.Hub])
     if ($('div').hasClass('poem-wrap')) {
       get_poem('#poem', '#info')
     }
-    hearthstone_deck_iframe()
+
   }
 }()
 mashiro_global.lib = new function () {

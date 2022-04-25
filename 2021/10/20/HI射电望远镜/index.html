@@ -33,8 +33,8 @@
   mashiro_option.email_name = "";
   mashiro_option.cookie_version_control = "";
   mashiro_option.qzone_autocomplete = false;
-  mashiro_option.site_name = "rainend";
-  mashiro_option.author_name = "end";
+  mashiro_option.site_name = "rainendwalnut";
+  mashiro_option.author_name = "walnut";
   mashiro_option.site_url = "https://www.rainend.org";
 
   mashiro_option.mathjax = "";
@@ -173,9 +173,9 @@
         <span class="logolink logo">
           <a href="/">
            <ruby>
-            <span class="sakurasono">rain</span>
+            <span class="sakurasono">rainend</span>
             <span class="no">の</span>
-            <span class="shironeko">end</span>
+            <span class="shironeko">walnut</span>
             <rp></rp>
             <rt class="logo">vanishment this world</rt>
             <rp></rp>
@@ -443,7 +443,7 @@
         <div class="entry-content">
           <h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>我们应该有这样一种简单的研究天文学问题的方法：<br>首先，不管什么理由，为了研究某种天体也好，还是就是单纯的想看看也行。tonikaku你总得明确你想看的那个东西是什么罢。<br>然后你就会想啊，通过哪些信使才能观测到它呢？这就需要涉及到了观测目标的本征性质了<br>通过查阅和学习了解它的这些性质之后呢，你就知道它能发出哪些信使，以及它发出的这些信使的特征<br>这样你终于就能知道该用什么观测设备去看它了</p>
 <p>比如你想观测双黑洞合并产生的引力波，总不可能拿光学望远镜去看吧$^{[1]} $；想观测高能宇宙线，总不可能拿射电望远镜去看吧$^{[2]} $……</p>
-<p>那么，本篇文章的观测目标就是银河系中性氢（HI）的21cm谱线，也是射电天文历史上观测到的第一条谱线。<br>既然明确了我们想看什么了，那么为了显得逼格高一点，就顺势<del>编</del>想一个观测它的理由吧！比如说你想要描绘银河系旋转曲线，并为揭示暗物质的本质寻找观测数据……<br>为此我们就需要打造一台相应的观测设备</p>
+<p>本篇文章的观测目标就是银河系中性氢（HI）的21cm谱线，也是射电天文历史上观测到的第一条谱线。<br>既然明确了我们想看什么了，那么为了显得逼格高一点，就顺势<del>编</del>想一个观测它的理由吧！比如说你想要描绘银河系旋转曲线，并为揭示暗物质的本质寻找观测数据……那么我们就需要打造一台相应的观测设备去尝试实现这个大饼</p>
 <h1 id="中性氢21cm谱线"><a href="#中性氢21cm谱线" class="headerlink" title="中性氢21cm谱线"></a>中性氢21cm谱线</h1><p>这一节就是讲中性氢谱线辐射机制的，嫌太长可以不看。</p>
 <p>HI的21cm谱线就是中性氢原子在它的超精细结构的子能级之间跃迁形成的。由于核磁矩远小于电子的自旋磁矩和轨道磁矩，谱线的超精细裂距会远小于精细结构裂距（源于电子的自旋磁矩与轨道磁矩之间的耦合）。<br>基态氢原子的原子态为$1^2 S_{\frac{1}{2}}$，其轨道角动量$L=0$，电子自旋角动量$s=\frac{1}{2}$，故总角动量$J=\frac{1}{2}$。这样，原子基态的能级就是唯一的。另一方面，氢原子核具有核自选角动量$I=\frac{1}{2}$，所以j和I耦合的结果为</p>
 <script type="math/tex; mode=display">
@@ -453,8 +453,8 @@ F=\begin{cases}1, 电子自旋与核自旋平行（上能级） \uparrow \uparro
 \Delta E=\begin{cases}+\frac{1}{4}a,\ \ \ F=1\\-\frac{3}{4}a,\ \ \ F=0 \end{cases}</script><p>所以能级的间隔$\Delta E(F=1)-\Delta E(F=0)=a$，其中氢原子基态(n=1,l=0,j=1/2,Z=1)的系数$a$为：</p>
 <script type="math/tex; mode=display">
 a=\frac{4}{3} g_i (\frac{m_e}{M_P})m_e c^2 \alpha^4</script><p>其中，质子的g因子$g_i=5.58569477$。</p>
-<p>这样我们就能算出能级差$\Delta E=a=5.8\times 10^{-6}eV$，相应的跃迁光子的频率$\nu=\Delta E/h=1420MH$，这个频率对应的波长为21.11cm，即为21cm氢谱线。</p>
-<p>那么以上过程的自发跃迁率是多少呢？是$A=2.8\times 10^{-15} s^{-1}=2.8\times 10^{-15} s^{-1}$ 单位是秒的负一次方，换算成年也就是平均每个中性氢原子大约1100万年才跃迁一次，这是一个很哈人的概率，几乎不可能发生。但事呢，星际介质中含有大量的HI，其柱密度$&gt;10^{21} cm^{-2} $，概率不够基数来凑嘛，最终我们就得到星际空间中HI跃迁发射事件发生率为$10^7 cm^{-2} s^{-1}$，这个数量级已经足够我们在地球上用一个小型射电望远镜进行银河系内的氢谱线观测了。</p>
+<p>这样我们就能算出能级差$\Delta E=a=5.8\times 10^{-6}eV$，相应的跃迁光子的频率$\nu=\Delta E/h=1420MHz$，这个频率对应的波长为21.11cm，即为21cm氢谱线。</p>
+<p>那么以上过程的自发跃迁率是多少呢？是$A=2.8\times 10^{-15} s^{-1}$ 单位是秒的负一次方，单位换算成yr也就是平均每个中性氢原子大约1100万年才跃迁一次，这是一个很哈人的概率，几乎不可能发生。但事呢，星际介质中含有大量的HI，其柱密度$&gt;10^{21} cm^{-2} $，概率不够基数来凑嘛，最终我们就得到星际空间中HI跃迁发射事件发生率为$10^7 cm^{-2} s^{-1}$，这个数量级已经足够我们在地球上用一个小型射电望远镜进行银河系内的氢谱线观测了。</p>
 <hr>
 <h1 id="观测所需软硬件设备"><a href="#观测所需软硬件设备" class="headerlink" title="观测所需软硬件设备"></a>观测所需软硬件设备</h1><h2 id="射电望远镜"><a href="#射电望远镜" class="headerlink" title="射电望远镜"></a>射电望远镜</h2><p>下面是一个单口径射电望远镜基本的组成：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/naphth/ImgHosting/Screenshot_20220419_141345.jpg" style="zoom:25%;" /></p>
@@ -796,7 +796,7 @@ $(document).ready(function() {
   <div class="m-avatar">
     <img src="https://cdn.jsdelivr.net/gh/naphth/mycdn@1.0.16/img/avatar.jpg">
   </div>
-  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">rainend</p>
+  <p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">rainendwalnut</p>
   <p style="text-align: center; word-spacing: 20px;">
     
       
